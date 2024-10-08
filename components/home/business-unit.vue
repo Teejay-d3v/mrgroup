@@ -128,7 +128,7 @@
             <div class="flex justify-end absolute bottom-0 lg:top-1/3 w-[413px] h-[418px] -right-48">
               <img
                 src="/images/enviro2.png"
-                class="border-radius-custom lg:w-auto"
+                class="border-radius-custom "
                 alt=""
                 style="width: 413px; height: 418px;" 
               />

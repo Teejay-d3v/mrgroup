@@ -1,70 +1,62 @@
 <template>
-  <section class="py-24 bg-gray-100">
-    <div class="container mx-auto flex flex-col items-center">
-      <h1 class="text-3xl font-bold mb-10">Our Process</h1>
-      <div class="grid grid-cols-3 gap-6">
-        <!-- Step 1 -->
-        <div class="flex justify-end items-center">
-          <!-- Left Column: Image -->
-          <img src="" alt="Step 1" class="w-32 h-32 object-cover" />
-        </div>
-        <div class="flex flex-col items-center">
-          <!-- Middle Column: Number and Line -->
-          <span class="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">01</span>
-          <div class="h-32 w-px bg-gray-300"></div>
-        </div>
-        <div class="flex justify-start items-center">
-          <!-- Right Column: Text -->
-          <div>
-            <h2 class="text-lg font-semibold">Sourcing</h2>
-            <p class="text-gray-600">Collect surplus, returned, or end-of-life products from retailers or customers. This step reduces waste and lays the foundation for reuse or recycling.</p>
-          </div>
-        </div>
+  <section class="max-w-5xl mx-auto my-16">
+    <!-- Step 1: Paragraph on the left -->
 
-        <!-- Step 2 -->
-        <div class="flex justify-start items-center">
-          <!-- Left Column: Text -->
-          <div>
-            <h2 class="text-lg font-semibold">Inventory Management</h2>
-            <p class="text-gray-600">Streamline the flow of items efficiently. Real-time tracking ensures optimal storage and accessibility.</p>
-          </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <!-- Middle Column: Number and Line -->
-          <span class="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">02</span>
-          <div class="h-32 w-px bg-gray-300"></div>
-        </div>
-        <div class="flex justify-end items-center">
-          <!-- Right Column: Image -->
-          <img src="" alt="Step 2" class="w-32 h-32 object-cover" />
-        </div>
 
-        <!-- Step 3 -->
-        <div class="flex justify-end items-center">
-          <!-- Left Column: Image -->
-          <img src="" alt="Step 3" class="w-32 h-32 object-cover" />
-        </div>
-        <div class="flex flex-col items-center">
-          <!-- Middle Column: Number and Line -->
-          <span class="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">03</span>
-          <!-- The line ends here, so no vertical line -->
-        </div>
-        <div class="flex justify-start items-center">
-          <!-- Right Column: Text -->
-          <div>
-            <h2 class="text-lg font-semibold">Refurbishing & Repair</h2>
-            <p class="text-gray-600">Inspect, repair, and restore products to like-new condition. Salvaged components from damaged items are repurposed to maximize value.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <StepItem
+      Image="/images/left-image2.svg"
+      number="01"
+      icon="/icons/step2.svg"
+      title="Sourcing"
+      Paragraph="Streamline the flow of items efficiently. Real-time tracking ensures optimal storage and accessibility."
+      description="Sort, store, and manage items efficiently to streamline the flow of goods through the reverse logistics process."
+      :isLastStep="false"
+      :isFirstStep="true"
+    />
+
+  <!-- Step 2: Paragraph on the left -->
+    <StepItem
+      number="02"
+      icon="/icons/step3.svg"
+      title="Inventory Management"
+      Paragraph="Repair and refurbishment prolong the life of products and components."
+      description="Inspect, repair, and restore products to like-new condition by skilled technicians. Salvaged components from non-repairable items are repurposed to maximize value."
+      :isLastStep="false"
+      :isFirstStep="false"
+    />
+
+
+    <!-- Step 3: Image on the left -->
+    <StepItem
+      Image="/images/left-image4.svg"
+      number="03"
+      icon="/icons/step4.svg"
+      title="Refurbishing & Repair"
+      Paragraph="Sell refurbished products through various channels such as online platforms, physical stores, or auctions."
+      description="Sell the refurbished products through various channels such as online platforms, physical stores, or auctions."
+    />
+    
+    <!-- Step 4: Image on the left -->
+    <StepItem
+      number="04"
+      icon="/icons/step1.svg"
+      title="Recommerce"
+      Paragraph="This is additional context for sourcing, giving details about the importance of sourcing effectively."
+      description="Collect surplus, returned, or end-of-life products from suppliers, retailers, or customers. This step reduces waste and sets the foundation for reuse or recycling."
+      :isFirstStep="false"
+      :isLastStep="true"
+    />
+    
+
+    
+
   </section>
 </template>
 
 <script setup>
-// No additional JavaScript needed
+import StepItem from '@/components/StepItem.vue'
 </script>
 
 <style scoped>
-/* Additional styling can be added as necessary */
+/* Any additional styling if required */
 </style>

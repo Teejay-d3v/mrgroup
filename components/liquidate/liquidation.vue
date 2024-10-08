@@ -3,11 +3,10 @@
     <section class="text-gray-600 body-font">
       <div class="col-span-12 flex justify-center">
         <div class=" flex flex-col items-center text-center" style="width: 1600px;  padding: 8px; gap: 40px; ">
-          <div class="my-5" style="width: 1104px; ">
-              <span class="font-semibold" style="font-family: 'DM Sans', sans-serif; font-size: 28px; line-height: 36px;">
-                Simplify Your Liquidation 
-                Process with HMR
-            </span>
+          <div class="my-5 items-center text-center" style="width: 1104px; align-items: center; ">
+              <h1 class="">
+                  Simplify Your Liquidation Process with HMR
+              </h1>
           </div>
 
           <div style="width: 1104px; height: 72px; gap: 0px;">

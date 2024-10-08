@@ -7,7 +7,6 @@
 </template>
 
 <script setup>
-import Intro from '../components/home/intro.vue'
 import BusinessUnit from '../components/home/business-unit.vue'
 import HmrWork from '../components/home/hmr-work.vue'
 import SustainableValue from '~/components/home/sustainable-value.vue'
