@@ -1,8 +1,8 @@
 <template>
   <div class="bg-white">
-    <!-- <ReverseLogistics /> -->
+    <ReverseLogistics />
     <LogisticsLocation />
-    <!-- <LogisticsSteps /> -->
+    <LogisticsSteps />
   </div>
 </template>
   
