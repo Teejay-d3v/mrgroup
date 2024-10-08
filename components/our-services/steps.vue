@@ -5,7 +5,7 @@
       <div class="flex justify-center py-5">
           <img 
             src="~/assets/step-center.png" 
-            alt="Left Side Image" 
+            alt="Center Image" 
             class="block w-[173px] h-[73.19px]"
           />
         </div>
@@ -18,7 +18,7 @@
         <div class="flex justify-center">
           <img 
             src="~/assets/step-left.png"  
-            alt="Left Side Image" 
+            alt="Right Side Image" 
             class="block w-[96px] h-[96px]"
           />
         </div>
