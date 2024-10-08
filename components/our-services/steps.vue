@@ -1,8 +1,15 @@
 <template>
-  <section class="p-8 bg-slate-200">
+  <section class="p-8 bg-slate-200 ">
     <!-- First Row: Single Column -->
-    <div class="mb-8 bg-white p-4">
-      <StepItemCenter />
+    <div class="mb-8 bg-white py-10">
+      <div class="flex justify-center py-5">
+          <img 
+            src="~/assets/step-center.png" 
+            alt="Left Side Image" 
+            class="block w-[173px] h-[73.19px]"
+          />
+        </div>
+      <StepItemCenter/>
     </div>
 
     <!-- Second Row: Two Columns -->
@@ -10,9 +17,9 @@
       <div class="bg-white p-4">
         <div class="flex justify-center">
           <img 
-            :src="Image" 
+            src="~/assets/step-left.png"  
             alt="Left Side Image" 
-            class="block"
+            class="block w-[96px] h-[96px]"
           />
         </div>
       
@@ -24,9 +31,9 @@
       <div class="bg-white p-4">
         <div class="flex justify-center">
           <img 
-            :src="Image" 
+          src="~/assets/step-right.png" 
             alt="Left Side Image" 
-            class="block"
+            class="block w-[188.67px] h-[62.89px]"
           />
         </div>
         <section class="max-w-5xl mx-auto my-16">

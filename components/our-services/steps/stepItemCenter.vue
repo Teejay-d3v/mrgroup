@@ -1,65 +1,84 @@
 <template>
-  <div class="flex items-start relative">
-    <!-- Left Side: Paragraph or Image -->
-    <div class="flex flex-col justify-center items-end w-1/2 pr-8">
-      <div class="text-right">
-        <h3>Lorem ipsum dolor sit</h3>
-        <p class="text-gray-600">ullam ducimus similique natus nemo iste a, corporis doloribus, cumque Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, saepe?</p>
-      </div>
-      <div class="pt-3">
-        <img 
-          :src="Image" 
-          alt="Left Side Image" 
-          class="pt-10 h-24 w-24 object-contain"
-        />
-      </div>
-      <div class="text-right pt-10">
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p class="text-gray-600">ullam ducimus similique natus nemo iste a, corporis doloribus, cumque Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, saepe?</p>
-      </div>
-    </div>
+  <div class="flex flex-col items-start relative  my-10">
+    <!-- Step Number with Horizontal Pins -->
+    <div class="flex flex-row items-center mb-4 w-full py-10 ">
+      <div class="flex-grow bg-gray-300"></div> 
 
-    <!-- Step Number with Vertical Lines -->
-    <div class="flex flex-row items-center">
-      <div class="w-px bg-gray-300"></div>
       <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
-      <div class="w-px h-20 bg-gray-300 mt-2"></div>
-      <div class="w-px h-10 bg-gray-300"></div>
+      <div class="h-px w-56  bg-gray-300"></div>
+      
       <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
-      <div class="w-px h-20 bg-gray-300 mt-2"></div>
-      <div class="w-px h-10 bg-gray-300"></div>
+      <div class="h-px w-56 bg-gray-300"></div>
+
       <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
-      <div class="w-px  bg-gray-300 mt-2"></div>
+      <div class="h-px w-56 bg-gray-300"></div>
+
+      <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
+      <div class="h-px w-56 bg-gray-300"></div>
+
+      <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
+      <div class="flex-grow bg-gray-300"></div>
     </div>
 
     <!-- Right Side: Step Icon and Text -->
-    <div class="flex flex-col justify-center items-start ml-8 w-1/2">
-      <div class="">
+    <div class="flex flex-row items-start mt-1 w-full justify-between">
+      <div class="flex flex-col items-center w-full text-center pl-6">
+        <p class="mb-2">1</p>
         <img 
-          :src="Image" 
-          alt="Right Side Image" 
-          class=" h-24 w-24 object-contain"
-        />
-      </div>
-      <div class="text-left pt-14">
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p class="text-gray-600">ullam ducimus similique natus nemo iste a, corporis doloribus, cumque Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, saepe?</p>
-      </div>
-      <div class="pt-10">
-        <img 
-          :src="Image" 
-          alt="Right Side Image" 
+          src="~/assets/ourservice.png" 
+          alt="Step 1 Image" 
           class="h-24 w-24 object-contain"
         />
+        
+        <h6 class="w-full">Auto Auctions</h6>
+      </div>
+
+      <div class="flex flex-col items-center w-full text-center">
+        <p class="mb-2">2</p>
+        <img 
+          src="~/assets/ourservice.png" 
+          alt="Step 2 Image" 
+          class="h-24 w-24 object-contain"
+        />
+        <h6 class="w-full">HMRBid.com </h6>
+      </div>
+
+      <div class="flex flex-col items-center w-full text-center">
+        <p class="mb-2">3</p>
+        <img 
+          src="~/assets/ourservice.png" 
+          alt="Step 3 Image" 
+          class="h-24 w-24 object-contain"
+        />
+        <h6 class="w-full">Machinery Auctions</h6>
+      </div>
+
+      <div class="flex flex-col items-center w-full text-center">
+        <p class="mb-2">4</p>
+        <img 
+          src="~/assets/ourservice.png" 
+          alt="Step 4 Image" 
+          class="h-24 w-24 object-contain"
+        />
+        <h6 class="w-full">Onsite Auction & Demolition</h6>
+      </div>
+
+      <div class="flex flex-col items-center w-full text-center pr-6">
+        <p class="mb-2">5</p>
+        <img 
+          src="~/assets/ourservice.png" 
+          alt="Step 5 Image" 
+          class="h-24 w-24 object-contain"
+        />
+        <h6 class="w-full">Real Estates</h6>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>
-
+/* Add any additional styles here */
 </style>

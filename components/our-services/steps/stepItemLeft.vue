@@ -8,9 +8,9 @@
       </div>
       <div class="pt-3">
         <img 
-          :src="Image" 
+          src="~/assets/ourservice.png" 
           alt="Left Side Image" 
-          class="pt-10 h-24 w-24 object-contain"
+          class=" h-24 w-24 object-contain"
         />
       </div>
       <div class="text-right pt-10">
@@ -36,7 +36,7 @@
     <div class="flex flex-col justify-center items-start ml-8 w-1/2">
       <div class="">
         <img 
-          :src="Image" 
+          src="~/assets/ourservice.png" 
           alt="Right Side Image" 
           class=" h-24 w-24 object-contain"
         />
@@ -47,9 +47,9 @@
       </div>
       <div class="pt-10">
         <img 
-          :src="Image" 
+          src="~/assets/ourservice.png" 
           alt="Right Side Image" 
-          class="h-24 w-24 object-contain"
+          class=" h-24 w-24 object-contain"
         />
       </div>
     </div>
