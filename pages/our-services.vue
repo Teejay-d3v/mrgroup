@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
-    <!-- <ReverseLogistics />
-    <LogisticsLocation /> -->
+    <ReverseLogistics />
+    <LogisticsLocation />
     <LogisticsSteps />
   </div>
 </template>

@@ -1,60 +1,47 @@
 <template>
-  <section class="max-w-5xl mx-auto my-16">
-    <!-- Step 1: Paragraph on the left -->
+  <section class="p-8 bg-slate-200">
+    <!-- First Row: Single Column -->
+    <div class="mb-8 bg-white p-4">
+      <StepItemCenter />
+    </div>
 
-
-    <StepItem
-      Image="/images/left-image2.svg"
-      number="01"
-      icon="/icons/step2.svg"
-      title="Sourcing"
-      Paragraph="Streamline the flow of items efficiently. Real-time tracking ensures optimal storage and accessibility."
-      description="Sort, store, and manage items efficiently to streamline the flow of goods through the reverse logistics process."
-      :isLastStep="false"
-      :isFirstStep="true"
-    />
-
-  <!-- Step 2: Paragraph on the left -->
-    <StepItem
-      number="02"
-      icon="/icons/step3.svg"
-      title="Inventory Management"
-      Paragraph="Repair and refurbishment prolong the life of products and components."
-      description="Inspect, repair, and restore products to like-new condition by skilled technicians. Salvaged components from non-repairable items are repurposed to maximize value."
-      :isLastStep="false"
-      :isFirstStep="false"
-    />
-
-
-    <!-- Step 3: Image on the left -->
-    <StepItem
-      Image="/images/left-image4.svg"
-      number="03"
-      icon="/icons/step4.svg"
-      title="Refurbishing & Repair"
-      Paragraph="Sell refurbished products through various channels such as online platforms, physical stores, or auctions."
-      description="Sell the refurbished products through various channels such as online platforms, physical stores, or auctions."
-    />
-    
-    <!-- Step 4: Image on the left -->
-    <StepItem
-      number="04"
-      icon="/icons/step1.svg"
-      title="Recommerce"
-      Paragraph="This is additional context for sourcing, giving details about the importance of sourcing effectively."
-      description="Collect surplus, returned, or end-of-life products from suppliers, retailers, or customers. This step reduces waste and sets the foundation for reuse or recycling."
-      :isFirstStep="false"
-      :isLastStep="true"
-    />
-    
-
-    
-
+    <!-- Second Row: Two Columns -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div class="bg-white p-4">
+        <div class="flex justify-center">
+          <img 
+            :src="Image" 
+            alt="Left Side Image" 
+            class="block"
+          />
+        </div>
+      
+      <!-- Content section -->
+      <section class="max-w-5xl mx-auto my-16">
+        <StepItemLeft />
+      </section>
+      </div>
+      <div class="bg-white p-4">
+        <div class="flex justify-center">
+          <img 
+            :src="Image" 
+            alt="Left Side Image" 
+            class="block"
+          />
+        </div>
+        <section class="max-w-5xl mx-auto my-16">
+        <!-- Step 2: Paragraph on the left -->
+          <StepItemRight />
+        </section>
+      </div>
+    </div>
   </section>
 </template>
 
 <script setup>
-import StepItem from '@/components/StepItem.vue'
+import StepItemRight from '~/components/our-services/steps/stepItemRight.vue';
+import StepItemLeft from '~/components/our-services/steps/stepItemLeft.vue';
+import StepItemCenter from '~/components/our-services/steps/stepItemCenter.vue';
 </script>
 
 <style scoped>

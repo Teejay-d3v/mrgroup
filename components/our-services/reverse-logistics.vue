@@ -1,70 +1,79 @@
 <template>
-  <section class="py-24 bg-gray-100">
-    <div class="container mx-auto flex flex-col items-center">
-      <h1 class="text-3xl font-bold mb-10">Our Process</h1>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Step 1 -->
-        <div class="flex justify-end items-center">
-          <!-- Left Column: Image -->
-          <img src="" alt="Step 1" class="w-24 h-24 md:w-32 md:h-32 object-cover" />
+  <section class="bg-white">
+    <div class="mb-44">
+      <div class="flex flex-col items-center text-center py-10 px-4">
+        <div class="my-5 max-w-5xl w-full">
+          <h1>How Can We Help You?</h1>
         </div>
-        <div class="flex flex-col items-center">
-          <!-- Middle Column: Number and Line -->
-          <span class=" border rounded-full w-10 h-10 flex items-center justify-center font-bold">01</span>
-          <div class="h-32 w-px bg-gray-300"></div>
+        <div class="max-w-5xl w-full">
+          <p>
+            We offer comprehensive solutions to maximize the value of surplus assets through our full-cycle reverse logistics and re-commerce services. Our expertise encompasses a wide variety of asset disposal and recycling processes, ensuring sustainable and efficient management of your resources.
+          </p>
         </div>
-        <div class="flex justify-start items-center">
-          <!-- Right Column: Text -->
-          <div>
-            <h2 class="text-lg font-semibold">Sourcing</h2>
-            <p class="text-gray-600">Collect surplus, returned, or end-of-life products from retailers or customers. This step reduces waste and lays the foundation for reuse or recycling.</p>
-          </div>
-        </div>
+      </div>
 
-        <!-- Step 2 -->
-        <div class="flex justify-start items-center">
-          <!-- Left Column: Text -->
-          <div>
-            <h2 class="text-lg font-semibold">Inventory Management</h2>
-            <p class="text-gray-600">Streamline the flow of items efficiently. Real-time tracking ensures optimal storage and accessibility.</p>
+      <div class=" flex flex-col items-center text-left pb-10">
+        <div style="width: 1584px; height: 72px;">
+          <div class="mt-8">
+            <h3>Our Reverse Logistics Process</h3>
           </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <!-- Middle Column: Number and Line -->
-          <span class=" border rounded-full  h-10 flex items-center justify-center font-bold">02</span>
-          <div class="h-32 w-px bg-gray-300"></div>
-        </div>
-        <div class="flex justify-end items-center">
-          <!-- Right Column: Image -->
-          <img src="" alt="Step 2" class="w-24 h-24 md:w-32 md:h-32 object-cover" />
-        </div>
-
-        <!-- Step 3 -->
-        <div class="flex justify-end items-center">
-          <!-- Left Column: Image -->
-          <img src="" alt="Step 3" class="w-24 h-24 md:w-32 md:h-32 object-cover" />
-        </div>
-        <div class="flex flex-col items-center">
-          <!-- Middle Column: Number and Line -->
-          <span class=" border rounded-full w-10 h-10 flex items-center justify-center font-bold">03</span>
-          <!-- The line ends here, so no vertical line -->
-        </div>
-        <div class="flex justify-start items-center">
-          <!-- Right Column: Text -->
-          <div>
-            <h2 class="text-lg font-semibold">Refurbishing & Repair</h2>
-            <p class="text-gray-600">Inspect, repair, and restore products to like-new condition. Salvaged components from damaged items are repurposed to maximize value.</p>
+          <div class="mt-8">
+            <img src="~/assets/marketplace.png" >
           </div>
         </div>
       </div>
+
+
+    <!-- Step 1: Paragraph on the left -->
+    <StepItem
+      Image="/images/left-image2.svg"
+      number="01"
+      icon="/icons/step2.svg"
+      title="Sourcing"
+      Paragraph="Collect surplus, returned, or end-of-life products from suppliers, retailers, or customers. This step reduces waste and sets the foundation for reuse or recycling."
+      :isLastStep="false"
+      :isFirstStep="true"
+    />
+
+  <!-- Step 2: Paragraph on the left -->
+    <StepItem
+      number="02"
+      icon="/icons/step3.svg"
+      title="Inventory Management"
+      Paragraph="Categorize, sort, and store items efficiently to streamline the flow of products through the reverse logistics process. Real-time tracking ensures optimal storage and accessibility."
+      :isSecondStep="false"
+    />
+
+
+    <!-- Step 3: Image on the left -->
+    <StepItem
+      Image="/images/left-image4.svg"
+      number="03"
+      icon="/icons/step4.svg"
+      title="Refurbishing & Repair"
+      Paragraph="Inspect, repair, and restore products to like-new condition by skilled technicians. Salvaged components from non-repairable items are repurposed to maximize value."
+      :isThirdStep="true"
+    />
+    
+    <!-- Step 4: Image on the left -->
+    <StepItem
+      number="04"
+      icon="/icons/step1.svg"
+      title="Recommerce"
+      Paragraph="Resell refurbished products through online platforms, physical stores, or B2B channels. This approach extends product life, reduces environmental impact, and offers cost-effective alternatives."
+      :isFirstStep="false"
+      :isLastStep="true"
+    />
+
     </div>
   </section>
+  
 </template>
 
 <script setup>
-// No additional JavaScript needed
+import StepItem from '@/components/our-services/steps/stepItem.vue'
 </script>
 
 <style scoped>
-/* Additional styling can be added as necessary */
+/* Any additional styling if required */
 </style>
