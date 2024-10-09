@@ -58,17 +58,11 @@ definePageMeta({
 
 <style scoped>
 .custom-image {
-  width: 100%; /* Make the image responsive within the card */
-  height: 100%; /* Maintain the original height */
+  width: 100%; 
+  height: 100%; 
   object-fit: cover; 
-  border-radius: 0.5rem; /* Rounded corners */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow to the image */
-}
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
-/* Optional: If you want to ensure the layout is responsive */
-@media (max-width: 640px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
-  }
 }
 </style>

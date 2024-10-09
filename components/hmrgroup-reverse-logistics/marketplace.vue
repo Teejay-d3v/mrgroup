@@ -2,14 +2,14 @@
   <div>
     <section>
       <div class="flex justify-center my-10">
-        <div class="flex flex-col items-center text-center w-full max-w-3xl p-4 gap-10">
+        <div class="flex flex-col items-center text-center w-full max-w-5xl p-4 gap-5">
           <h1>
             Reverse Logistics Service Provider & B2B Re-Commerce Marketplace.
           </h1>
           <div>
             <img src="~/assets/marketplace.png" alt="Marketplace Image" class="w-full h-auto">
           </div>
-          <p class="text-lg text-gray-600">
+          <p class=" text-gray-600">
             With our online liquidation platform, you can sell excess inventory, returns, or other liquidation inventory directly to a wide variety of trusted buyers. This drives better than average demand, higher pricing, and faster sales cycles.
           </p>
         </div>

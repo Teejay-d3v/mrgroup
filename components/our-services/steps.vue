@@ -13,7 +13,7 @@
     </div>
 
     <!-- Second Row: Two Columns -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div class="bg-white p-4">
         <div class="flex justify-center">
           <img 

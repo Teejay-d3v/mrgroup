@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12 gap-8 md:mt-20 md:mx-10">
+  <div class="grid grid-cols-12 gap-8 mt-10 md:mx-10 p-8">
     <div class="col-span-12 flex justify-center items-center">
       <h3 class="leading-[36px]" >
         Our Core Business Solutions

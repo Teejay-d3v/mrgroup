@@ -1,18 +1,16 @@
 <template>
   <div>
     <section>
-      <div class="col-span-12 flex justify-center py-10">
-          <div class=" flex flex-col items-center text-center" style="width: 1600px;  padding: 8px; gap: 40px; ">
-            <div style="width: 1104px; height: 144px;">
-              <span style="font-family: 'DM Sans', sans-serif; font-size: 56px; font-weight: 600; line-height: 72px; text-align: center;" class="font-semibold ">
-                A Secondary Market Ecosystem For Machinery And Industrial Equipment.
-              </span>
-            </div>
-            <div class="mt-10">
-              <img src="~/assets/auctions-logo.png" alt="Image 1" > 
-            </div>
+      <div class="flex justify-center my-10">
+        <div class="flex flex-col items-center text-center w-full max-w-5xl p-4 gap-5">
+          <p>
+            A Secondary Market Ecosystem For Machinery And Industrial Equipment.
+          </p>
+          <div>
+            <img src="~/assets/auctions-logo.png" alt="Auctions Image" class="w-full h-auto">
           </div>
         </div>
+      </div>
     </section>
   </div>
 </template>

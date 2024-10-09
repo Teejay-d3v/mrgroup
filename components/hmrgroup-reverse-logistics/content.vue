@@ -1,5 +1,5 @@
 <template>
-  <div class="my-12">
+  <div class="my-12 leading-[36px]">
     <!-- First Section -->
     <section class="text-gray-600 body-font">
       <div class="container mx-auto flex  md:flex-row flex-col items-center mb-8">
@@ -11,7 +11,7 @@
 
         <!-- Text on the Right -->
         <div class="w-full md:w-1/2 flex flex-col items-center text-center md:items-start md:text-left pl-10">
-          <h5 class="py-4 text-gray-900">Demolition</h5>
+          <h5 class="py-4 text-gray-900 ">Demolition</h5>
             <p>At HMR Reverse Logistics, we bring an expertise in safe and efficient demolition services. Specializing in both residential and commercial projects, we're committed to environmentally responsible practices, ensuring every site is cleared with precision and care. Our team, equipped with industry standard equipment, we prioritize safety and customer satisfaction. We offer comprehensive services, including building demolition, debris removal, and site preparation, all tailored to your specific needs.</p>
         </div>
       </div>
