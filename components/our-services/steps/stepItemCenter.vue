@@ -3,19 +3,19 @@
   <section class="hidden md:block">
   <div class="w-full flex justify-center">
     <!-- Stepper -->
-    <ul class="relative flex flex-col md:flex-row gap-4 w-full md:w-[90%]">
+    <ul class="relative flex flex-col md:flex-row gap-4 w-full ml-32 md:w-[90%]">
       <!-- Item -->
       <li class="md:shrink md:basis-0 flex-1 group flex gap-x-2 md:block">
         <div class="min-w-7 min-h-7 ml-10 flex flex-col items-center md:w-full md:inline-flex md:flex-wrap md:flex-row text-xs align-middle">
           <span class="size-7 flex justify-center items-center shrink-0 bg-orange-600 font-medium text-gray-800 rounded-full"></span>
           <div class="mt-2 w-px h-full md:mt-0 md:ms-2 md:w-full md:h-px md:flex-1 bg-gray-200 group-last:hidden"></div>
         </div>
-        <div class="grow md:grow-0 md:mt-3 pb-5">
+        <div class="md:mt-3 pb-5">
           <p class="block ml-10">01</p>
           <div>
             <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
-          <h6 class="ml-8">Auto Auctions</h6>
+          <h6>Auto Auctions</h6>
         </div>
       </li>
       <!-- End Item -->
@@ -26,12 +26,12 @@
           <span class="size-7 flex justify-center items-center shrink-0 bg-orange-600 font-medium text-gray-800 rounded-full"></span>
           <div class="mt-2 w-px h-full md:mt-0 md:ms-2 md:w-full md:h-px md:flex-1 bg-gray-200 group-last:hidden"></div>
         </div>
-        <div class="grow md:grow-0 md:mt-3 pb-5">
+        <div class="md:mt-3 pb-5">
           <span class="block ml-10">02</span>
           <div>
             <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
-          <h6 class="ml-8">HMRBid.com</h6>
+          <h6>HMRBid.com</h6>
         </div>
       </li>
       <!-- End Item -->
@@ -42,12 +42,12 @@
           <span class="size-7 flex justify-center items-center shrink-0 bg-orange-600 font-medium text-gray-800 rounded-full"></span>
           <div class="mt-2 w-px h-full md:mt-0 md:ms-2 md:w-full md:h-px md:flex-1 bg-gray-200 group-last:hidden"></div>
         </div>
-        <div class="grow md:grow-0 md:mt-3 pb-5">
+        <div class="md:mt-3 pb-5">
           <p class="block ml-10">03</p>
           <div>
             <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
-          <h6 class="ml-5">Machinery Auctions</h6>
+          <h6>Machinery Auctions</h6>
         </div>
       </li>
       <!-- End Item -->
@@ -58,12 +58,12 @@
           <span class="size-7 flex justify-center items-center shrink-0 bg-orange-600 font-medium text-gray-800 rounded-full"></span>
           <div class="mt-2 w-px h-full md:mt-0 md:ms-2 md:w-full md:h-px md:flex-1 bg-gray-200 group-last:hidden"></div>
         </div>
-        <div class="grow md:grow-0 md:mt-3 pb-5">
+        <div class="md:mt-3 pb-5">
           <p class="block ml-10">04</p>
           <div>
             <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
-          <h6 class="ml-8">Onsite Auction & Demolition</h6>
+          <h6 class="pr-32">Onsite Auction & Demolition</h6>
         </div>
       </li>
       <!-- End Item -->
@@ -74,13 +74,12 @@
           <span class="size-7 flex justify-center items-center shrink-0 bg-orange-600 font-medium text-gray-800 rounded-full"></span>
           <div class="mt-2 w-px h-full md:mt-0 md:ms-2 md:w-full md:h-px md:flex-1 bg-gray-200 group-last:hidden"></div>
         </div>
-        <div class="grow md:grow-0 md:mt-3 pb-5">
-          <p class="block ">05</p>
+        <div class="md:mt-3 pb-5">
+          <p class="block ml-10">05</p>
           <div>
             <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
-          <h6 class="ml-8">Real
-            Estates</h6>
+          <h6>Real Estates</h6>
         </div>
       </li>
       <!-- End Item -->
