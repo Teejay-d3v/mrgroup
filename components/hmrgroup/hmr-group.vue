@@ -18,28 +18,28 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-2">
           <div class="p-4 w-[384px] h-[601px]">
             <div class="rounded-lg h-full overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="~/assets/hrm-group-content.png">
+              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="/public/images/hrm-group-content.png">
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Shooting Stars</h2>
           </div>
 
           <div class="p-4 w-[384px] h-[601px]">
             <div class="rounded-lg h-full overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="~/assets/hrm-group-content2.png">
+              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="/public/images/hrm-group-content2.png">
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Catalyzer</h2>
           </div>
 
           <div class="p-4 w-[384px] h-[601px]">
             <div class="rounded-lg h-full overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="~/assets/hrm-group-content3.png">
+              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="/public/images/hrm-group-content3.png">
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
           </div>
 
           <div class="p-4 w-[384px] h-[601px]">
             <div class="rounded-lg h-full overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="~/assets/hrm-group-content4.png">
+              <img alt="content" class="object-cover object-center h-full w-full custom-image" src="/public/images/hrm-group-content4.png">
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
           </div>

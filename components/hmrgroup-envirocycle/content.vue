@@ -7,7 +7,7 @@
             Certified Disposal And Waste Management Services For Client’s Assets That Can’t Be Resold Profitably.
           </h1>
           <div>
-            <img src="~/assets/envirocycle.png" alt="envirocycle Image" class="w-full h-auto">
+            <img src="/public/images/envirocycle.png" alt="envirocycle Image" class="w-full h-auto">
           </div>
         </div>
       </div>

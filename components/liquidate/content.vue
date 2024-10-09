@@ -6,7 +6,7 @@
         <!-- Image on the Left -->
         <div class="w-full md:w-1/2 flex justify-center mb-10 md:mb-0"> 
           <img class="object-cover object-center w-full h-auto rounded-l-lg"
-          alt="team" src="~/images/surplus1.png">
+          alt="team" src="/public/images/surplus1.png">
         </div>
 
         <!-- Text on the Right -->
@@ -32,7 +32,7 @@
     <!-- Mobile view -->
     <div class="block md:hidden w-full justify-center"> 
       <img class="object-cover object-center w-full h-auto rounded-r-lg" 
-      alt="team" src="~/images/surplus2.png">
+      alt="team" src="/public/images/surplus2.png">
     </div>
 
     <!-- Text on the Left -->
@@ -52,7 +52,7 @@
     <!-- Desktop view -->
     <div class="hidden md:block w-full md:w-1/2 justify-center"> 
       <img class="object-cover object-center w-full h-auto rounded-r-lg" 
-      alt="team" src="~/images/surplus2.png">
+      alt="team" src="/public/images/surplus2.png">
     </div>
       </div>
     </section>

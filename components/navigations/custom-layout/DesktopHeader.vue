@@ -112,7 +112,7 @@ watch(
       rgba(120, 175, 253, 0.1) 11.52%,
       #0B2B5A 146.14%
     ),
-  url('~/assets/header2.png');
+  url('/public/images/header2.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

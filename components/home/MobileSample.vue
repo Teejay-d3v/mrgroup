@@ -48,14 +48,14 @@
             <div class="relative flex-1">
             <div class="relative flex justify-center">
               <img
-                src="/images/enviro1.png"
+                src="/public/images/enviro1.png"
                 class="w-full h-auto rounded-lg shadow-lg"
                 alt="Enviro Image"
               />
             </div>
             <div class="absolute bottom-0 right-0">
               <img
-                src="/images//enviro2.png"
+                src="/public/images//enviro2.png"
                 class="w-32 h-auto rounded-lg"
                 alt="Enviro Image Overlay"
               />
@@ -72,14 +72,14 @@
           <div class="relative flex-1">
             <div class="relative flex justify-center">
               <img
-                src="/images/enviro1.png"
+                src="/public/images/enviro1.png"
                 class="w-full h-auto rounded-lg shadow-lg"
                 alt="Enviro Image"
               />
             </div>
             <div class="absolute bottom-0 right-0">
               <img
-                src="/images//enviro2.png"
+                src="/public/images//enviro2.png"
                 class="w-32 h-auto rounded-lg"
                 alt="Enviro Image Overlay"
               />

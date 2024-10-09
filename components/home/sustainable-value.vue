@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="w-full lg:w-1/2 flex justify-center">
-          <img class="border-radius-custom object-cover object-center w-full h-auto rounded-lg" alt="team" src="~/assets/home1.png">
+          <img class="border-radius-custom object-cover object-center w-full h-auto rounded-lg" alt="team" src="/public/images/home1.png">
         </div>
       </div>
     </section>
@@ -24,11 +24,6 @@
     <!-- Section 2 -->
     <section class="text-gray-600 body-font">
       <div class="container mx-auto flex flex-col lg:flex-row items-center px-5">
-        <div class="lg:w-1/2 md:w-1/2 w-[28rem] h-[35rem] md:py-20 flex justify-center"> 
-          <img class="object-cover object-center w-full h-full rounded-lg shadow-lg" style="height: 564.29px; width: 441.68px" alt="team" src="~/assets/home2.png">
-        </div>
-
-
         <div class="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <div class="bg-white p-10 rounded-lg shadow-lg w-full">
             <button class="mb-3 bg-gray-300 h-10 px-6 rounded-lg font-semibold">CAREERS</button>
@@ -47,6 +42,10 @@
               </a>
             </div>
           </div>
+        </div>
+
+        <div class="lg:w-1/2 md:w-1/2 w-[28rem] h-[35rem] md:py-20 flex justify-center"> 
+          <img class="object-cover object-center w-full h-full rounded-lg shadow-lg" style="height: 564.29px; width: 441.68px" alt="team" src="/public/images/home2.png">
         </div>
 
       </div>

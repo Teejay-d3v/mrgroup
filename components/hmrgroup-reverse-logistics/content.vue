@@ -6,7 +6,7 @@
         <!-- Image on the Left -->
         <div class="w-full md:w-1/2 flex justify-center mb-10 md:mb-0"> 
           <img class="object-cover object-center w-full h-auto rounded-l-lg"
-          alt="team" src="~/images/surplus1.png">
+          alt="team" src="/public/images/surplus1.png">
         </div>
 
         <!-- Text on the Right -->
@@ -29,7 +29,7 @@
         <!-- Image on the Right -->
         <div class="w-full md:w-1/2 flex justify-center"> 
           <img class="object-cover object-center w-full h-auto rounded-r-lg" 
-          alt="team" src="~/images/surplus2.png">
+          alt="team" src="/public/images/ourservice.png">
         </div>
       </div>
     </section>

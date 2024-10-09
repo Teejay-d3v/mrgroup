@@ -7,7 +7,7 @@
             A Secondary Market Ecosystem For Machinery And Industrial Equipment.
           </p>
           <div>
-            <img src="~/assets/auctions-logo.png" alt="Auctions Image" class="w-full h-auto">
+            <img src="/public/images/auctions-logo.png" alt="Auctions Image" class="w-full h-auto">
           </div>
         </div>
       </div>

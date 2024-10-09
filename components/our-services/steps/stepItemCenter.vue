@@ -13,7 +13,7 @@
         <div class="md:mt-3 pb-5">
           <p class="block ml-10">01</p>
           <div>
-            <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
+            <img src="/public/images/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
           <h6>Auto Auctions</h6>
         </div>
@@ -29,7 +29,7 @@
         <div class="md:mt-3 pb-5">
           <span class="block ml-10">02</span>
           <div>
-            <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
+            <img src="/public/images/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
           <h6>HMRBid.com</h6>
         </div>
@@ -45,7 +45,7 @@
         <div class="md:mt-3 pb-5">
           <p class="block ml-10">03</p>
           <div>
-            <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
+            <img src="/public/images/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
           <h6>Machinery Auctions</h6>
         </div>
@@ -61,7 +61,7 @@
         <div class="md:mt-3 pb-5">
           <p class="block ml-10">04</p>
           <div>
-            <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
+            <img src="/public/images/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
           <h6 class="pr-32">Onsite Auction & Demolition</h6>
         </div>
@@ -77,7 +77,7 @@
         <div class="md:mt-3 pb-5">
           <p class="block ml-10">05</p>
           <div>
-            <img src="~/assets/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
+            <img src="/public/images/ourservice.png" alt="Left Side Image" class="h-24 w-24 object-contain" />
           </div>
           <h6>Real Estates</h6>
         </div>
@@ -95,7 +95,7 @@
           <!-- First Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="List Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -106,7 +106,7 @@
           <!-- Second Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Selling & Shipping Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -117,7 +117,7 @@
           <!-- Third Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Sign-up Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -128,7 +128,7 @@
           <!-- Fourth Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Tailored Analysis Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -139,7 +139,7 @@
           <!-- fifth Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Tailored Analysis Service" 
               class="h-24 w-24 object-contain mx-auto"
             />

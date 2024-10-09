@@ -113,7 +113,7 @@
 .custom-bg-image {
   height: 1000px;  
   width: 100%;
-  background-image: url('~/assets/header.png');
+  background-image: url('/public/images/header.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +134,6 @@
   width: 90px;
   height: 21px; 
   padding: 0 24px; 
-  font-family: 'Poppins', sans-serif; 
   font-size: 14px; 
   font-weight: 400; 
   line-height: 21px; 

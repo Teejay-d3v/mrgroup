@@ -31,7 +31,7 @@
       rgba(120, 175, 253, 0.1) 11.52%,
       #0b2b5a 146.14%
     ),
-    url('~/assets/footer.png');
+    url('/public/images/footer.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 460px;

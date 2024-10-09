@@ -11,8 +11,8 @@
   </div>
 </template>
 <script setup>
-import DesktopHeader from '@/components/navigations/DesktopHeader.vue'
-import MobileHeader from '@/components/navigations/MobileHeader.vue'
+import DesktopHeader from '~/components/navigations/default-layout/DesktopHeader.vue'
+import MobileHeader from '~/components/navigations/default-layout/MobileHeader.vue'
 import Header from "../components/Header.vue"
 </script>
 

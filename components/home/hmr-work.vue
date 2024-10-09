@@ -4,7 +4,7 @@
       <div class="grid grid-cols-6 lg:grid-cols-12 ">
         <div
           class="col-span-6 h-[700px] lg:h-[820px] bg-primary   bg-cover order-2 lg:order-1"
-          style="background-image: url('/images//test.png')"
+          style="background-image: url('/images//home3.png')"
         ></div>
         <div class="text-white col-span-6 grid place-content-center h-full px-4  bg-blue-900 lg:px-16 space-y-4 order-1 lg:order-2 pb-12  lg:pb-0">
           <div class="p-10" >

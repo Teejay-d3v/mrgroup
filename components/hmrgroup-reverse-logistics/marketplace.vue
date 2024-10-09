@@ -7,7 +7,7 @@
             Reverse Logistics Service Provider & B2B Re-Commerce Marketplace.
           </h1>
           <div>
-            <img src="~/assets/marketplace.png" alt="Marketplace Image" class="w-full h-auto">
+            <img src="/public/images/marketplace.png" alt="Marketplace Image" class="w-full h-auto">
           </div>
           <p class=" text-gray-600">
             With our online liquidation platform, you can sell excess inventory, returns, or other liquidation inventory directly to a wide variety of trusted buyers. This drives better than average demand, higher pricing, and faster sales cycles.

@@ -4,7 +4,7 @@
     <div class="mb-8 bg-white py-10">
       <div class="flex justify-center py-5">
           <img 
-            src="~/assets/step-center.png" 
+            src="/public/images/step-center.png" 
             alt="Center Image" 
             class="block w-[173px] h-[73.19px]"
           />
@@ -17,7 +17,7 @@
       <div class="bg-white p-4">
         <div class="flex justify-center">
           <img 
-            src="~/assets/step-left.png"  
+            src="/public/images/step-left.png"  
             alt="Right Side Image" 
             class="block w-[96px] h-[96px]"
           />
@@ -31,7 +31,7 @@
       <div class="bg-white p-4">
         <div class="flex justify-center">
           <img 
-          src="~/assets/step-right.png" 
+          src="/public/images/step-right.png" 
             alt="Left Side Image" 
             class="block w-[188.67px] h-[62.89px]"
           />

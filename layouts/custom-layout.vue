@@ -1,8 +1,8 @@
 <template>
   <div>
     <header>
-    <DesktopHeader class="hidden lg:block" />
-    <MobileHeader class="lg:hidden" />
+    <DesktopHeader class="hidden md:block" />
+    <MobileHeader class="md:hidden" />
     </header>
     <div>
       <slot />
@@ -17,8 +17,8 @@
 
 
 <script setup>
-import DesktopHeader from '@/components/navigations/custom/DesktopHeader.vue'
-import MobileHeader from '@/components/navigations/custom/MobileHeader.vue'
+import DesktopHeader from '@/components/navigations/custom-layout/DesktopHeader.vue'
+import MobileHeader from '@/components/navigations/custom-layout/MobileHeader.vue'
 import { ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import Footer from "../components/Footer.vue";

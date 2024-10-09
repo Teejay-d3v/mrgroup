@@ -9,7 +9,7 @@
       <div class="pt-10">
         <p>02</p>
         <img 
-          src="~/assets/ourservice.png" 
+          src="/public/images/ourservice.png" 
           alt="Left Side Image" 
           class=" h-24 w-24 object-contain"
         />
@@ -37,7 +37,7 @@
     <div class="flex flex-col justify-center items-start ml-8 w-1/2 px-10">
       <div class="pt-0">
         <img 
-          src="~/assets/ourservice.png" 
+          src="/public/images/ourservice.png" 
           alt="Right Side Image" 
           class=" h-24 w-24 object-contain"
         />
@@ -49,7 +49,7 @@
       </div>
       <div class="pt-10">
         <img 
-          src="~/assets/ourservice.png" 
+          src="/public/images/ourservice.png" 
           alt="Right Side Image" 
           class=" h-24 w-24 object-contain"
         />

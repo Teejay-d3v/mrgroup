@@ -75,7 +75,7 @@
 
         <!-- Button -->
         <button class="custom-button text-white">
-          Button
+          List Now
         </button>
       </div>
 
@@ -113,7 +113,7 @@
 .custom-bg-image {
   height: 1000px;  
   width: 100%;
-  background-image: url('~/assets/header.png');
+  background-image: url('/public/images/header.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

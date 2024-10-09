@@ -3,7 +3,7 @@
     <section>
       <div class="container mx-auto flex flex-wrap p-5">
         <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
-          <img src="~/assets/gnr.png" alt="Image 1" class="w-full h-[460px] object-cover rounded-lg"  />
+          <img src="/public/images/gnr.png" alt="Image 1" class="w-full h-[460px] object-cover rounded-lg"  />
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 my-10 gap-3">
@@ -63,7 +63,7 @@
       <!-- Second Image and Content Section -->
       <div class="container mx-auto flex flex-wrap p-5">
         <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
-          <img src="~/assets/gnr2.png" alt="Image 2" class="w-full h-[460px] object-cover rounded-lg" />
+          <img src="/public/images/gnr2.png" alt="Image 2" class="w-full h-[460px] object-cover rounded-lg" />
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 my-10 gap-3">
@@ -127,7 +127,7 @@
       <!-- Third Image and Content Section -->
       <div class="container mx-auto flex flex-wrap  p-5">
         <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
-          <img src="~/assets/gnr3.png" alt="Image 3" class="w-full h-[460px] object-cover rounded-lg" />
+          <img src="/public/images/gnr3.png" alt="Image 3" class="w-full h-[460px] object-cover rounded-lg" />
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 my-10 gap-3">

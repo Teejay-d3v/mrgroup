@@ -71,7 +71,7 @@
       rgba(120, 175, 253, 0.1) 11.52%,
       #0B2B5A 146.14%
     ),
-    url('~/assets/supply-change.png');
+    url('/public/images/supply-change.png');
   background-repeat: no-repeat;
   background-size: contain; 
   background-position: center; 

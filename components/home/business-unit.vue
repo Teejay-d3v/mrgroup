@@ -99,13 +99,13 @@
             <div class="col-span-12 lg:col-span-8 relative mb-16 lg:mb-0 order-2 lg:order-1">
               <div class="relative z-20">
                 <img
-                  src="/images/enviro1.png"
+                  src="/public/images/enviro1.png"
                   class="w-[90%]  h-auto rounded-lg shadow-lg opacity-100"  
                   alt="Environment Image 1"
                 />
                 <!-- Second Card -->
                 <img
-                  src="/images/enviro2.png"
+                  src="/public/images/enviro2.png"
                   class="w-[40%] h-[60%] max-w-[418px] rounded-lg shadow-lg absolute top-64 right-[10%] transform translate-x-[25%] -translate-y-1/5 opacity-100" 
                   alt="Environment Image 2"
                 />

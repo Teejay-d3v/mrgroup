@@ -16,7 +16,7 @@
         <div class="flex flex-col justify-center items-end lg:w-1/2 w-full pr-4 lg:pr-8">
           <div>
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Our service" 
               class="h-24 w-24 object-contain"
             />
@@ -27,7 +27,7 @@
           </div>
           <div class="pt-16">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Our Service" 
               class="h-24 w-24 object-contain"
             />
@@ -75,7 +75,7 @@
           </div>
           <div class="pt-16">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Right Side Image" 
               class="h-24 w-24 object-contain"
             />
@@ -88,7 +88,7 @@
 
           <div class="pt-16">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Right Side Image" 
               class="h-24 w-24 object-contain"
             />
@@ -107,7 +107,7 @@
           <!-- First Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="List Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -118,7 +118,7 @@
           <!-- Second Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Selling & Shipping Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -129,7 +129,7 @@
           <!-- Third Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Sign-up Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
@@ -140,7 +140,7 @@
           <!-- Fourth Service -->
           <div class="text-center">
             <img 
-              src="~/assets/ourservice.png" 
+              src="/public/images/ourservice.png" 
               alt="Tailored Analysis Service" 
               class="h-24 w-24 object-contain mx-auto"
             />

@@ -7,7 +7,7 @@
             A Secondary Market Ecosystem With Multichannel Capabilities And Strong Brand Recognition In The Philippines.
           </h1>
           <div>
-            <img src="~/assets/trading-haus-logo.png" alt="trading haus Image" class="w-full h-auto">
+            <img src="/public/images/trading-haus-logo.png" alt="trading haus Image" class="w-full h-auto">
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@
         <div class="mt-8 w-full max-w-5xl">
           <h3 class="text-xl md:text-2xl lg:text-3xl">Our Reverse Logistics Process</h3>
           <div class="mt-8">
-            <img src="~/assets/marketplace.png" alt="Marketplace Process" class="max-w-full h-auto" style="max-width: 1584px;" />
+            <img src="/public/images/marketplace.png" alt="Marketplace Process" class="max-w-full h-auto" style="max-width: 1584px;" />
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@
 
       <div class="py-5">
         <div class="flex items-center"> 
-          <img src="~/assets/ourservice.png" alt="Image 1" > 
+          <img src="/public/images/ourservice.png" alt="Image 1" > 
 
           <p class="flex ml-5"> 
             With HMR as the parent company. there is a sustained supply of re-usable and re-salvageable material, connecting the relationship between environment, place, and human potential. Implementing green practices from the onset in terms of Design and Engineering which will impact carbon output and wastage.
