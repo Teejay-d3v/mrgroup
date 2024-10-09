@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="bg-[#FBFBFB]">
+    <Header />
     <Pillar />
     <SupplyChain />
     <BusinessSolution />
@@ -15,6 +16,7 @@ import SupplyChain from "../components/governance-and-responsibility/supply-chai
 import BusinessSolution from "../components/governance-and-responsibility/business-solutions.vue"
 import OurServices from "../components/governance-and-responsibility/our-services.vue"
 import Logo from "../components/governance-and-responsibility/logos.vue"
+import Header from "../components/governance-and-responsibility/header.vue"
   definePageMeta({
       layout: 'custom-layout',
       name: 'Governance and Responsibility',

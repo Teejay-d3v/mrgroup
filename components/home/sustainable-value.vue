@@ -1,7 +1,5 @@
 <template>
   <div class="bg-gray-100">
-
-
     <section class="text-gray-600 body-font ">
       <div class="padding-custom container mx-auto flex px-5 md:flex-row flex-col items-center">
         <div class="w-[796px] h-[515px] lg:flex-grow md:w-1/2  flex flex-col ">

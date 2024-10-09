@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-[#FBFBFB]">
     <AboutUs />
   </div>
 </template>

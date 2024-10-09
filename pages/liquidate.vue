@@ -1,6 +1,7 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-[#FBFBFB]">
     <SurplusAssets />
+    <Content />
     <Liquidation />
   </div>
 </template>
@@ -8,6 +9,7 @@
 <script setup>
   import SurplusAssets from '../components/liquidate/surplus-assets.vue'
   import Liquidation from '../components/liquidate/liquidation.vue'
+  import Content from '../components/liquidate/content.vue'
 
     definePageMeta({
         layout: 'custom-layout',
