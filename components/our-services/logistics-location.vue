@@ -4,7 +4,7 @@
       <div class="grid grid-cols-6 lg:grid-cols-12">
         <div
           class="col-span-6 bg-primary bg-cover order-2 lg:order-1 flex items-center justify-center"
-          style="background-image: url('/images/logisticslocation.png'); min-height: 700px;"
+          style="background-image: url('/images//logisticslocation.png'); min-height: 700px;"
         >
           <div
             class="bg-gray-200 w-[80%] h-[85%] max-w-[704px] p-[34px] flex flex-col border-2 justify-center items-center gap-2 rounded-xl opacity-95 relative"

@@ -14,7 +14,7 @@
         </div>
 
       <section class="my-10">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <!-- First Card -->
           <div class="flex flex-col h-full p-6 gap-4 border rounded-[12px] text-left shadow-md">
             <div class="flex justify-center mb-4">
@@ -79,7 +79,7 @@
       <section class="mt-5">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
           <!-- First Card -->
-          <div class="flex flex-col col-span-12 lg:col-span-4 h-auto md:p-10 gap-4 border rounded-[12px] text-left shadow-md">
+          <div class="flex flex-col col-span-12 lg:col-span-4 h-auto p-5 lg:p-10 gap-4 border rounded-[12px] text-left shadow-md">
             <div class="flex justify-center mb-4">
               <img alt="content" class="object-cover object-center w-32 h-32" src="https://dummyimage.com/100x100/c9c9c9/000000">
             </div>
@@ -95,76 +95,25 @@
             </div>
           </div>
 
-      <!-- Image Section -->
-        <div class="col-span-12 lg:col-span-8 relative mb-16 lg:mb-0 order-2 lg:order-1">
-          <div class="relative z-20">
-            <img
-              src="/assets/images/enviro1.png"
-              class="w-[90%]  h-auto rounded-lg shadow-lg opacity-100"  
-              alt="Environment Image 1"
-            />
-            <!-- Second Card -->
-            <img
-              src="/assets/images/enviro2.png"
-              class="w-[40%] h-[60%] max-w-[418px] rounded-lg shadow-lg absolute top-64 right-[10%] transform translate-x-[25%] -translate-y-1/5 opacity-100" 
-              alt="Environment Image 2"
-            />
-          </div>
-        </div>
-
-  
-    </div>
-
-      </section>
-
-
-
-      <!-- Mobile -->
-      <!-- <section class="block lg:hidden my-10">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    
-          <div class="flex flex-col h-full p-6 gap-4 border rounded-[12px] text-left shadow-md">
-            <div class="flex justify-center mb-4">
-              <img alt="content" class="object-cover w-32 h-32 rounded-full" src="https://dummyimage.com/100x100/c9c9c9/000000">
-            </div>
-            <div>
-              <h4 class="text-gray-900 mb-3">Reverse Logistics</h4>
-              <p class="leading-relaxed text-base">At HMR Reverse Logistics, we specialize in transforming surplus and returned products into valuable assets through efficient and sustainable reverse logistics solutions.</p>
-            </div>
-            <div class="border-t border-opacity-0 mt-4">
-              <a class="text-orange-500 inline-flex items-center mt-3" style="width: 100%;">
-                Learn More
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                  <path d="M7 17l10-10M17 17V7h-10" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-     
-          <div class="col-span-12 lg:col-span-6 relative pr-12 pt-4 mb-16 lg:mb-0 order-2 lg:order-1">
-            <div
-              class="w-44 h-80 absolute top-[15%] lg:top-1/4 right-1/3 lg:right-1/4 transform translate-x-2/3 -translate-y-1/4 z-10"
-              style="background-image: url('/images/big-dot.png')"
-            ></div>
-            <div class="relative z-20">
+          <!-- Image Section -->
+            <div class="col-span-12 lg:col-span-8 relative mb-16 lg:mb-0 order-2 lg:order-1">
+              <div class="relative z-20">
                 <img
-                      src="/assets/images/enviro1.png"
-                      class="w-3/4 h-auto rounded-lg shadow-lg ml-16 z-20 opacity-0"
-                      alt=""
-                    />
-
-
-                <img
-                    src="/images/enviro2.png"
-                    class="w-2/3 h-auto rounded-lg shadow-lg absolute top-2/3 right-0 transform translate-x-1/4 -translate-y-1/5"
-                    alt=""
+                  src="/images/enviro1.png"
+                  class="w-[90%]  h-auto rounded-lg shadow-lg opacity-100"  
+                  alt="Environment Image 1"
                 />
+                <!-- Second Card -->
+                <img
+                  src="/images/enviro2.png"
+                  class="w-[40%] h-[60%] max-w-[418px] rounded-lg shadow-lg absolute top-64 right-[10%] transform translate-x-[25%] -translate-y-1/5 opacity-100" 
+                  alt="Environment Image 2"
+                />
+                </div>
               </div>
             </div>
+          </section>
 
-        </div>
-      </section> -->
    
       </div>
     </div>
