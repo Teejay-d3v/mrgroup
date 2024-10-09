@@ -12,12 +12,12 @@
         </div>
       </div>
     </div>
-    <StepItem />
+    <ContentDetails />
   </div>
 </template>
 
 <script setup>
-import StepItem from '../liquidate/steps/stepItem.vue';
+import ContentDetails from '../liquidate/details/content-details.vue';
 </script>
 
 <style scoped>

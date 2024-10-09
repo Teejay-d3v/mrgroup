@@ -3,7 +3,7 @@
     <div class="custom-bg col-span-12 py-24">
       <div class="grid grid-cols-12 gap-4 md:gap-8 mx-2 md:mx-10">
         <!-- One -->
-        <div class="col-span-12">
+        <div class="col-span-12 p-5">
           <div>
             <h3 class="leading-[36px] text-left mb-10">
               Tech Focused Regenerative Circular Supply Chain Company
@@ -15,15 +15,15 @@
           </div>
         </div>
 
-        <div class="col-span-12 grid grid-cols-12 gap-4 md:gap-8 pt-4 md:py-10">
+        <div class="col-span-12 grid grid-cols-12 gap-4 md:gap-8 pt-4 md:py-10 p-5 md:p-0">
           <div class="flex flex-col md:flex-row col-span-12 md:col-span-4 mb-4 md:mb-0"> 
             <div class="text-center md:text-left mb-4 md:mb-0">
               <h2 class="font-bold text-[40px] md:text-[56px] leading-[1]">14,000</h2>
-              <p class="text-sm">Tonnes</p>
+              <p>Tonnes</p>
             </div>
             <div class="text-center md:text-left mb-4 md:mb-0 md:mx-8"> 
               <h2 class="font-bold text-[40px] md:text-[56px] leading-[1]">5,228</h2>
-              <p class="text-sm">Metric Tonnes CO2e prevented</p>
+              <p>Metric Tonnes CO2e prevented</p>
             </div>
           </div>
           <div class="col-span-12 md:col-span-7 mb-4 md:mb-0 pr-32">
@@ -35,7 +35,7 @@
 
 
         <!-- Three  -->
-        <div class="col-span-12 grid grid-cols-12 gap-4">
+        <div class="col-span-12 grid grid-cols-12 gap-4 p-5 md:p-0">
           <div class="col-span-12 md:col-span-4 mb-4">
             <h5>Eco-Friendly Sharing and Disposal</h5>
             <p class="leading-[36px] font-normal">
