@@ -2,7 +2,9 @@
   <div>
     <section>
       <div class="container mx-auto flex flex-wrap">
-        <div class="w-full">
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
           <img src="~/assets/gnr.png" alt="Image 1" class="w-full h-[460px] object-cover rounded-lg"  />
         </div>
 
@@ -61,7 +63,7 @@
       </div>
 
       <!-- Second Image and Content Section -->
-      <div class="container px-5 mx-auto flex flex-wrap">
+      <div class="container mx-auto flex flex-wrap">
         <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
           <img src="~/assets/gnr2.png" alt="Image 2" class="w-full h-[460px] object-cover rounded-lg" />
         </div>
@@ -80,9 +82,9 @@
             </p>
           </div>
           <div class="flex flex-col lg:text-left leading-[36px]">
-            <span>
+            <p>
               As a group that spans multiple business fields and covers the entire reverse logistics value chain, this empowerment structure drives initiative and creativity..
-            </span>
+            </p>
             <ul>
               <li class="flex items-center mb-2 lg:mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -125,7 +127,7 @@
       </div>
 
       <!-- Third Image and Content Section -->
-      <div class="container px-5 mx-auto flex flex-wrap">
+      <div class="container mx-auto flex flex-wrap">
         <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
           <img src="~/assets/gnr3.png" alt="Image 3" class="w-full h-[460px] object-cover rounded-lg" />
         </div>

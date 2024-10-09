@@ -1,13 +1,13 @@
 <template>
-  <div class="grid grid-cols-12 gap-8 m-10">
-    <div class="col-span-12 flex justify-center">
-      <span class="font-semibold text-center" style="font-family: 'DM Sans', sans-serif; font-size: 28px; line-height: 36px;">
+  <div class="grid grid-cols-12 gap-8 md:mt-20 md:mx-10">
+    <div class="col-span-12 flex justify-center items-center">
+      <h3 class="leading-[36px]" >
         Our Core Business Solutions
-      </span>
+      </h3>
     </div>
 
-    <div class="col-span-12 grid grid-cols-12">
-      <div  class="col-span-3 border"   style="width: 384px; height: 420px; padding: 24px 16px; gap: 32px; border-radius: 12px;">
+    <div class="col-span-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-20 leading-[36px]">
+      <div class="border rounded-lg p-6 flex flex-col h-full">
         <h1 class="text-lg font-semibold mb-2">Sales Channels</h1>
         <ul class="list-disc list-inside">
           <li>10 strategically placed stores around the PH</li>
@@ -17,7 +17,7 @@
         </ul>
       </div>
 
-      <div  class="col-span-3 border"   style="width: 384px; height: 420px; padding: 24px 16px; gap: 32px; border-radius: 12px;">
+      <div class="border rounded-lg p-6 flex flex-col  h-full">
         <h1 class="text-lg font-semibold mb-2">Recycling</h1>
         <ul class="list-disc list-inside">
           <li>Assured destructions</li>
@@ -28,7 +28,7 @@
         </ul>
       </div>
 
-      <div  class="col-span-3 border"   style="width: 384px; height: 420px; padding: 24px 16px; gap: 32px; border-radius: 12px;">
+      <div class="border rounded-lg p-6 flex flex-col  h-full">
         <h1 class="text-lg font-semibold mb-2">Reverse Logistics</h1>
         <ul class="list-disc list-inside">
           <li>Inventory Management and Returns Management</li>
@@ -42,7 +42,7 @@
         </ul>
       </div>
 
-      <div  class="col-span-3 border"   style="width: 384px; height: 420px; padding: 24px 16px; gap: 32px; border-radius: 12px;">
+      <div class="border rounded-lg p-6 flex flex-col  h-full">
         <h1 class="text-lg font-semibold mb-2">Auctions</h1>
         <ul class="list-disc list-inside">
           <li>Inventory control and manifesting</li>
@@ -51,16 +51,14 @@
           <li>Online, Offline, On-site Auctions</li>
         </ul>
       </div>
-
     </div>
   </div>
 </template>
 
-
 <script setup>
-
+  // Your script logic can be added here
 </script>
 
 <style scoped>
-
+  /* Add any scoped styles here if necessary */
 </style>
