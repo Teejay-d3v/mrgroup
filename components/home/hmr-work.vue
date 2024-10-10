@@ -88,12 +88,12 @@ setupAnimations([
   {
     element: item1,
     props: { translateX: ['100%', '0%'], opacity: [0, 1] },
-    options: { duration: 0.4, easing: 'ease-out' }
+    options: { duration: 0.6, easing: 'ease-out' }
   },
   {
     element: item2,
     props: { translateX: ['100%', '0%'], opacity: [0, 1] },
-    options: { duration: 0.6, easing: 'ease-out' }
+    options: { duration: 0.7, easing: 'ease-out' }
   },
   {
     element: item3,
