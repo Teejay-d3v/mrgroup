@@ -1,70 +1,176 @@
 <template>
-  <div class="flex items-start relative">
-    <!-- Left Side: Paragraph or Image -->
-    <div class="flex flex-col justify-center items-start w-1/2 pr-8 px-20">
-      <div class="text-left pb-20">
-        <p class="text-gray-600" style="font-size: 18px; font-weight: 400; line-height: 36px; text-align: left;">
-          Convert waste into reusable materials with our sustainable recycling services.</p>
-      </div>
-      <div class="pt-10 p-5 rounded-lg shadow-lg border  h-[140px] w-[314px]  transition duration-300 transform hover:scale-105">
-        <div class="flex">
-          <p class="mr-2">02.</p>
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.25 15C8.66344 15 9 14.6625 9 14.25V3.75C9 2.50969 10.0125 1.5 11.25 1.5H32.5125C33.1042 1.5 33.6844 1.74019 34.1034 2.15916L38.3456 6.40134C38.7562 6.82031 39 7.40063 39 7.99219V14.25C39 14.6625 39.3375 15 39.75 15C40.1625 15 40.5 14.6646 40.5 14.25V7.99219C40.5 6.99 40.1104 6.04969 39.4012 5.34094L35.1591 1.09875C34.4625 0.399938 33.4969 0 32.5125 0H11.25C9.18188 0 7.5 1.68187 7.5 3.75V14.25C7.5 14.6625 7.83656 15 8.25 15ZM40.5 24C39.675 24 39 24.675 39 25.5C39 26.325 39.675 27 40.5 27C41.325 27 42 26.325 42 25.5C42 24.675 41.325 24 40.5 24ZM42 18H6C2.68594 18 0 20.6906 0 24V33C0 34.6566 1.34344 36 3 36H45C46.6566 36 48 34.6566 48 33V24C48 20.6906 45.3094 18 42 18ZM46.5 33C46.5 33.8271 45.8273 34.5 45 34.5H3C2.17275 34.5 1.5 33.8271 1.5 33V24C1.5 21.5184 3.51844 19.5 6 19.5H42C44.4816 19.5 46.5 21.5184 46.5 24V33ZM6 38.25C5.58544 38.25 5.25 38.5869 5.25 39V47.25C5.25 47.6631 5.58544 48 5.91562 48C6.24581 48 6.75 47.6625 6.75 47.25V39C6.75 38.5875 6.41437 38.25 6 38.25ZM15 38.25C14.5854 38.25 14.25 38.5869 14.25 39V47.25C14.25 47.6631 14.5854 48 14.9156 48C15.2458 48 15.75 47.6625 15.75 47.25V39C15.75 38.5875 15.4125 38.25 15 38.25ZM24 38.25C23.5854 38.25 23.25 38.5869 23.25 39V47.25C23.25 47.6625 23.5875 48 24 48C24.4125 48 24.75 47.6631 24.75 47.25V39C24.75 38.5875 24.4125 38.25 24 38.25ZM33 38.25C32.5854 38.25 32.25 38.5869 32.25 39V47.25C32.25 47.6631 32.5854 48 33 48C33.4146 48 33.75 47.6631 33.75 47.25V39C33.75 38.5875 33.4125 38.25 33 38.25ZM42 38.25C41.5854 38.25 41.25 38.5869 41.25 39V47.25C41.25 47.6631 41.5854 48 42 48C42.4146 48 42.75 47.6631 42.75 47.25V39C42.75 38.5875 42.4125 38.25 42 38.25Z" fill="#13376B"/>
-          </svg>
+  <div>
+    <!-- Desktop -->
+    <section class="hidden lg:block">
+      <div class="flex items-start relative">
+        <div class="flex flex-col justify-center items-start w-1/2 pr-8 px-20">
+          <div ref="paragraph1" class="text-left pb-20">
+            <p class="text-gray-600" style="font-size: 18px; font-weight: 400; line-height: 36px; text-align: left;">
+              Convert waste into reusable materials with our sustainable recycling services.</p>
+          </div>
+          <div ref="leftSvg1" class=" p-5 rounded-lg shadow-lg border  h-[140px] w-full  transition duration-300 transform hover:scale-105">
+            <div class="flex">
+              <p class="mr-2">02.</p>
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.25 15C8.66344 15 9 14.6625 9 14.25V3.75C9 2.50969 10.0125 1.5 11.25 1.5H32.5125C33.1042 1.5 33.6844 1.74019 34.1034 2.15916L38.3456 6.40134C38.7562 6.82031 39 7.40063 39 7.99219V14.25C39 14.6625 39.3375 15 39.75 15C40.1625 15 40.5 14.6646 40.5 14.25V7.99219C40.5 6.99 40.1104 6.04969 39.4012 5.34094L35.1591 1.09875C34.4625 0.399938 33.4969 0 32.5125 0H11.25C9.18188 0 7.5 1.68187 7.5 3.75V14.25C7.5 14.6625 7.83656 15 8.25 15ZM40.5 24C39.675 24 39 24.675 39 25.5C39 26.325 39.675 27 40.5 27C41.325 27 42 26.325 42 25.5C42 24.675 41.325 24 40.5 24ZM42 18H6C2.68594 18 0 20.6906 0 24V33C0 34.6566 1.34344 36 3 36H45C46.6566 36 48 34.6566 48 33V24C48 20.6906 45.3094 18 42 18ZM46.5 33C46.5 33.8271 45.8273 34.5 45 34.5H3C2.17275 34.5 1.5 33.8271 1.5 33V24C1.5 21.5184 3.51844 19.5 6 19.5H42C44.4816 19.5 46.5 21.5184 46.5 24V33ZM6 38.25C5.58544 38.25 5.25 38.5869 5.25 39V47.25C5.25 47.6631 5.58544 48 5.91562 48C6.24581 48 6.75 47.6625 6.75 47.25V39C6.75 38.5875 6.41437 38.25 6 38.25ZM15 38.25C14.5854 38.25 14.25 38.5869 14.25 39V47.25C14.25 47.6631 14.5854 48 14.9156 48C15.2458 48 15.75 47.6625 15.75 47.25V39C15.75 38.5875 15.4125 38.25 15 38.25ZM24 38.25C23.5854 38.25 23.25 38.5869 23.25 39V47.25C23.25 47.6625 23.5875 48 24 48C24.4125 48 24.75 47.6631 24.75 47.25V39C24.75 38.5875 24.4125 38.25 24 38.25ZM33 38.25C32.5854 38.25 32.25 38.5869 32.25 39V47.25C32.25 47.6631 32.5854 48 33 48C33.4146 48 33.75 47.6631 33.75 47.25V39C33.75 38.5875 33.4125 38.25 33 38.25ZM42 38.25C41.5854 38.25 41.25 38.5869 41.25 39V47.25C41.25 47.6631 41.5854 48 42 48C42.4146 48 42.75 47.6631 42.75 47.25V39C42.75 38.5875 42.4125 38.25 42 38.25Z" fill="#13376B"/>
+              </svg>
+            </div>
+            <h5 class="ml-8">Assured Destruction</h5>
+          </div>
+          <div ref="paragraph2" class="pr-20">
+            <p class="text-gray-600 pt-14" style="font-size: 18px; font-weight: 400; line-height: 36px; text-align: left;" >
+              Optimize waste handling and disposal with our efficient waste management solutions.
+            </p>
+          </div>
         </div>
-        <h5 class="ml-8">eCommerce</h5>
+
+
+      <div class="flex flex-col items-center mt-5">
+        <div class="w-px bg-gray-300"></div>
+        <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
+        <div class="w-px h-20 bg-gray-300 mt-2"></div>
+        <div class="w-px h-10 bg-gray-300"></div>
+        <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
+        <div class="w-px h-20 bg-gray-300 mt-2"></div>
+        <div class="w-px h-10 bg-gray-300"></div>
+        <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
+        <div class="w-px  bg-gray-300 mt-2"></div>
       </div>
-      <div class="pr-20">
-        <p class="text-gray-600 pt-14" style="font-size: 18px; font-weight: 400; line-height: 36px; text-align: left;">
-          Optimize waste handling and disposal with our efficient waste management solutions.
-        </p>
+
+      <div class="flex flex-col justify-center items-start  w-1/2 px-10">
+        <div ref="rightSvg1" class="p-5 rounded-lg shadow-lg border  h-[140px] w-full transition duration-300 transform hover:scale-105">
+          <div class="flex">
+            <p class="mr-2">01.</p>
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.0746 2.88724L36.0129 19.5838L28.1953 18.301C27.7363 18.2186 27.3194 18.5354 27.2451 18.9832C27.1707 19.4341 27.4778 19.8593 27.9303 19.9337L37.5013 21.505C37.6402 21.4241 37.6815 21.5172 37.7229 21.5172C37.8684 21.5172 38.0138 21.4801 38.1463 21.4009C38.1659 21.3891 38.1659 21.3633 38.1841 21.3502C38.2992 21.2703 38.3643 21.1528 38.4271 21.0233C38.4548 20.9651 38.5063 20.9263 38.5198 20.8636C38.5225 20.8515 38.5352 20.8459 38.5374 20.8335L40.1667 11.6039C40.2475 11.1545 39.9469 10.7246 39.4976 10.6453C38.9902 10.5548 38.6184 10.87 38.5376 11.3161L37.2952 18.3526L27.5835 2.03884C26.8195 0.761379 25.4746 0 23.9953 0C22.516 0 21.1712 0.761379 20.4057 2.03483L17.3953 7.02C17.1574 7.41103 17.2815 7.92414 17.6746 8.15172C18.0658 8.38769 18.5732 8.26324 18.8095 7.8721L21.8219 2.88693C22.7539 1.34276 25.1436 1.34793 26.0746 2.88724ZM47.2815 34.7897L41.7771 25.6717C41.5411 25.2806 41.0304 25.1593 40.6422 25.3921C40.2511 25.6281 40.1251 26.1372 40.3611 26.528L45.8655 35.6459C46.3601 36.4638 46.3763 37.45 45.9043 38.2838C45.4453 39.0985 44.6174 39.5862 43.6905 39.5862H22.7539L28.0029 34.5235C28.3294 34.2067 28.3391 33.683 28.0223 33.3535C27.7056 33.027 27.1852 33.0173 26.8523 33.3341L20.2195 39.7345C19.9479 39.8704 19.7314 40.0976 19.7314 40.4211C19.7314 40.4477 19.7575 40.4635 19.7599 40.4896C19.7643 40.5103 19.7333 40.531 19.7333 40.5517C19.7333 40.7781 19.8238 40.9914 19.9854 41.1466L26.8502 47.7672C27.016 47.9276 27.2229 48 27.4298 48C27.6463 48 27.8629 47.916 28.0245 47.7478C28.3413 47.418 28.3316 46.8943 28.0051 46.5778L22.4748 41.244H43.692C45.2241 41.244 46.5917 40.4423 47.3479 39.0974C48.2022 37.7379 48.1815 36.1241 47.2815 34.7897ZM14.2505 13.4586C14.1884 13.4897 14.1781 13.3966 14.0953 13.3552C14.085 13.3448 14.0643 13.3552 14.0539 13.3448C13.9548 13.2929 13.8466 13.3081 13.7336 13.2998C13.6298 13.2931 13.5367 13.2621 13.3505 13.2931C13.4229 13.2931 13.4126 13.2828 13.3919 13.2931L4.3205 16.6138C3.89119 16.7793 3.67084 17.2552 3.82912 17.6793C3.9875 18.1092 4.45943 18.3259 4.88946 18.1723L11.807 15.6368L0.624292 34.7851C-0.183743 36.1237 -0.209605 37.7334 0.559647 39.0948C1.31596 40.4396 2.68344 41.2413 4.21551 41.2413H13.7022C14.158 41.2413 14.5297 40.8695 14.5297 40.4137C14.5297 39.9579 14.158 39.5861 13.7022 39.5861H4.21084C3.28322 39.5861 2.45533 39.098 1.99705 38.2837C1.52512 37.4497 1.54126 36.4641 2.0423 35.6334L13.5354 15.9575L16.3606 23.1244C16.485 23.4517 16.7953 23.6483 17.1264 23.6483C17.2266 23.6483 17.3299 23.6305 17.4302 23.5901C17.8536 23.4236 18.0637 22.9419 17.8956 22.5163L14.4466 13.7635C14.416 13.6655 14.3126 13.6241 14.2505 13.4586Z" fill="#13376B"/>
+            </svg>
+          </div>
+          <h5 class="ml-8 mt-2">Recycling</h5>
+        </div>
+        <div ref="paragraph3" class="text-right pr-20  py-12">
+          <p class="text-gray-600" style="font-size: 18px; font-weight: 400; line-height: 36px; text-align: left;">
+            Safeguard sensitive items with our secure and certified assured destruction services.</p>
+        </div>
+        <div ref="rightSvg2" class=" p-5 rounded-lg shadow-lg border  h-[140px] w-full transition duration-300 transform hover:scale-105">
+          <div class="flex">
+            <p class="mr-2">03.</p>
+            <svg width="42" height="48" viewBox="0 0 42 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.8375 6L13.4813 1.7625C14.1656 0.666094 15.3656 0 16.6594 0H25.3406C26.6344 0 27.8344 0.666094 28.5188 1.7625L31.1625 6H41.25C41.6625 6 42 6.33563 42 6.75C42 7.16437 41.6625 7.5 41.25 7.5H0.75C0.335812 7.5 0 7.16437 0 6.75C0 6.33563 0.335812 6 0.75 6H10.8375ZM12.6 6H29.4L27.2438 2.5575C26.8313 1.89938 26.1094 1.5 25.3406 1.5H16.6594C15.8906 1.5 15.1687 1.89938 14.7562 2.5575L12.6 6ZM3.75 10.5C4.16437 10.5 4.5 10.8375 4.5 11.25V41.25C4.5 44.1469 6.85031 46.5 9.75 46.5H32.25C35.1469 46.5 37.5 44.1469 37.5 41.25V11.25C37.5 10.8375 37.8375 10.5 38.25 10.5C38.6625 10.5 39 10.8375 39 11.25V41.25C39 44.9813 35.9813 48 32.25 48H9.75C6.0225 48 3 44.9813 3 41.25V11.25C3 10.8375 3.33562 10.5 3.75 10.5ZM12.75 39C12.75 39.4125 12.4125 39.75 12 39.75C11.5875 39.75 11.25 39.4125 11.25 39V15C11.25 14.5875 11.5875 14.25 12 14.25C12.4125 14.25 12.75 14.5875 12.75 15V39ZM21.75 39C21.75 39.4125 21.4125 39.75 21 39.75C20.5875 39.75 20.25 39.4125 20.25 39V15C20.25 14.5875 20.5875 14.25 21 14.25C21.4125 14.25 21.75 14.5875 21.75 15V39ZM30.75 39C30.75 39.4125 30.4125 39.75 30 39.75C29.5875 39.75 29.25 39.4125 29.25 39V15C29.25 14.5875 29.5875 14.25 30 14.25C30.4125 14.25 30.75 14.5875 30.75 15V39Z" fill="#13376B"/>
+              </svg>
+          </div>
+          <h6 class="ml-8 mt-2">Waste Management</h6>
+        </div>
       </div>
     </div>
+    </section>
 
-    <!-- Step Number with Vertical Lines -->
-    <div class="flex flex-col items-center mt-5">
-      <div class="w-px bg-gray-300"></div>
-      <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
-      <div class="w-px h-20 bg-gray-300 mt-2"></div>
-      <div class="w-px h-10 bg-gray-300"></div>
-      <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
-      <div class="w-px h-20 bg-gray-300 mt-2"></div>
-      <div class="w-px h-10 bg-gray-300"></div>
-      <div class="bg-orange-500 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full"></div>
-      <div class="w-px  bg-gray-300 mt-2"></div>
-    </div>
+    <!-- Mobile -->
+    <section class="block lg:hidden my-10">
+      <div class="flex flex-col justify-center items-start w-full px-4">
+        <div class="flex flex-col justify-center items-center w-full space-y-8">
 
-    <!-- Right Side: Step Icon and Text -->
-    <div class="flex flex-col justify-center items-start  w-1/2 px-10">
-      <div class="p-5 rounded-lg shadow-lg border  h-[140px] w-[314px] transition duration-300 transform hover:scale-105">
-        <div class="flex">
-          <p class="mr-2">01.</p>
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="p-5 rounded-lg shadow-lg border  h-[140px] w-full  transition duration-300 transform hover:scale-105">
+          <div class="flex">
+            <h5 class="bg-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-center">
+              1
+            </h5>
+            <svg class="mx-auto" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M26.0746 2.88724L36.0129 19.5838L28.1953 18.301C27.7363 18.2186 27.3194 18.5354 27.2451 18.9832C27.1707 19.4341 27.4778 19.8593 27.9303 19.9337L37.5013 21.505C37.6402 21.4241 37.6815 21.5172 37.7229 21.5172C37.8684 21.5172 38.0138 21.4801 38.1463 21.4009C38.1659 21.3891 38.1659 21.3633 38.1841 21.3502C38.2992 21.2703 38.3643 21.1528 38.4271 21.0233C38.4548 20.9651 38.5063 20.9263 38.5198 20.8636C38.5225 20.8515 38.5352 20.8459 38.5374 20.8335L40.1667 11.6039C40.2475 11.1545 39.9469 10.7246 39.4976 10.6453C38.9902 10.5548 38.6184 10.87 38.5376 11.3161L37.2952 18.3526L27.5835 2.03884C26.8195 0.761379 25.4746 0 23.9953 0C22.516 0 21.1712 0.761379 20.4057 2.03483L17.3953 7.02C17.1574 7.41103 17.2815 7.92414 17.6746 8.15172C18.0658 8.38769 18.5732 8.26324 18.8095 7.8721L21.8219 2.88693C22.7539 1.34276 25.1436 1.34793 26.0746 2.88724ZM47.2815 34.7897L41.7771 25.6717C41.5411 25.2806 41.0304 25.1593 40.6422 25.3921C40.2511 25.6281 40.1251 26.1372 40.3611 26.528L45.8655 35.6459C46.3601 36.4638 46.3763 37.45 45.9043 38.2838C45.4453 39.0985 44.6174 39.5862 43.6905 39.5862H22.7539L28.0029 34.5235C28.3294 34.2067 28.3391 33.683 28.0223 33.3535C27.7056 33.027 27.1852 33.0173 26.8523 33.3341L20.2195 39.7345C19.9479 39.8704 19.7314 40.0976 19.7314 40.4211C19.7314 40.4477 19.7575 40.4635 19.7599 40.4896C19.7643 40.5103 19.7333 40.531 19.7333 40.5517C19.7333 40.7781 19.8238 40.9914 19.9854 41.1466L26.8502 47.7672C27.016 47.9276 27.2229 48 27.4298 48C27.6463 48 27.8629 47.916 28.0245 47.7478C28.3413 47.418 28.3316 46.8943 28.0051 46.5778L22.4748 41.244H43.692C45.2241 41.244 46.5917 40.4423 47.3479 39.0974C48.2022 37.7379 48.1815 36.1241 47.2815 34.7897ZM14.2505 13.4586C14.1884 13.4897 14.1781 13.3966 14.0953 13.3552C14.085 13.3448 14.0643 13.3552 14.0539 13.3448C13.9548 13.2929 13.8466 13.3081 13.7336 13.2998C13.6298 13.2931 13.5367 13.2621 13.3505 13.2931C13.4229 13.2931 13.4126 13.2828 13.3919 13.2931L4.3205 16.6138C3.89119 16.7793 3.67084 17.2552 3.82912 17.6793C3.9875 18.1092 4.45943 18.3259 4.88946 18.1723L11.807 15.6368L0.624292 34.7851C-0.183743 36.1237 -0.209605 37.7334 0.559647 39.0948C1.31596 40.4396 2.68344 41.2413 4.21551 41.2413H13.7022C14.158 41.2413 14.5297 40.8695 14.5297 40.4137C14.5297 39.9579 14.158 39.5861 13.7022 39.5861H4.21084C3.28322 39.5861 2.45533 39.098 1.99705 38.2837C1.52512 37.4497 1.54126 36.4641 2.0423 35.6334L13.5354 15.9575L16.3606 23.1244C16.485 23.4517 16.7953 23.6483 17.1264 23.6483C17.2266 23.6483 17.3299 23.6305 17.4302 23.5901C17.8536 23.4236 18.0637 22.9419 17.8956 22.5163L14.4466 13.7635C14.416 13.6655 14.3126 13.6241 14.2505 13.4586Z" fill="#13376B"/>
           </svg>
+          </div>
+          <h5 class=" text-center ml-8">Recycling</h5>
         </div>
-        <h5 class="ml-8 mt-2">Recycling</h5>
-      </div>
-      <div class="text-right pr-20  py-12">
-        <p class="text-gray-600" style="font-size: 18px; font-weight: 400; line-height: 36px;">
-          Safeguard sensitive items with our secure and certified assured destruction services.</p>
-      </div>
-      <div class="pt-10 p-5 rounded-lg shadow-lg border  h-[140px] w-[314px] transition duration-300 transform hover:scale-105">
-        <div class="flex">
-          <p class="mr-2">03.</p>
-          <svg width="42" height="48" viewBox="0 0 42 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+       
+        <div class="text-center ">
+          <p class="text-gray-600 p-5" >
+            Convert waste into reusable materials with our sustainable recycling services.</p>
+        </div>
+
+        <div class="pt-10 p-5 rounded-lg shadow-lg border h-[140px] w-full transition duration-300 transform hover:scale-105 ">
+          <div class="flex ">
+            <h5 class="bg-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-center">
+              2
+            </h5>
+            <svg class="mx-auto" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.25 15C8.66344 15 9 14.6625 9 14.25V3.75C9 2.50969 10.0125 1.5 11.25 1.5H32.5125C33.1042 1.5 33.6844 1.74019 34.1034 2.15916L38.3456 6.40134C38.7562 6.82031 39 7.40063 39 7.99219V14.25C39 14.6625 39.3375 15 39.75 15C40.1625 15 40.5 14.6646 40.5 14.25V7.99219C40.5 6.99 40.1104 6.04969 39.4012 5.34094L35.1591 1.09875C34.4625 0.399938 33.4969 0 32.5125 0H11.25C9.18188 0 7.5 1.68187 7.5 3.75V14.25C7.5 14.6625 7.83656 15 8.25 15ZM40.5 24C39.675 24 39 24.675 39 25.5C39 26.325 39.675 27 40.5 27C41.325 27 42 26.325 42 25.5C42 24.675 41.325 24 40.5 24ZM42 18H6C2.68594 18 0 20.6906 0 24V33C0 34.6566 1.34344 36 3 36H45C46.6566 36 48 34.6566 48 33V24C48 20.6906 45.3094 18 42 18ZM46.5 33C46.5 33.8271 45.8273 34.5 45 34.5H3C2.17275 34.5 1.5 33.8271 1.5 33V24C1.5 21.5184 3.51844 19.5 6 19.5H42C44.4816 19.5 46.5 21.5184 46.5 24V33ZM6 38.25C5.58544 38.25 5.25 38.5869 5.25 39V47.25C5.25 47.6631 5.58544 48 5.91562 48C6.24581 48 6.75 47.6625 6.75 47.25V39C6.75 38.5875 6.41437 38.25 6 38.25ZM15 38.25C14.5854 38.25 14.25 38.5869 14.25 39V47.25C14.25 47.6631 14.5854 48 14.9156 48C15.2458 48 15.75 47.6625 15.75 47.25V39C15.75 38.5875 15.4125 38.25 15 38.25ZM24 38.25C23.5854 38.25 23.25 38.5869 23.25 39V47.25C23.25 47.6625 23.5875 48 24 48C24.4125 48 24.75 47.6631 24.75 47.25V39C24.75 38.5875 24.4125 38.25 24 38.25ZM33 38.25C32.5854 38.25 32.25 38.5869 32.25 39V47.25C32.25 47.6631 32.5854 48 33 48C33.4146 48 33.75 47.6631 33.75 47.25V39C33.75 38.5875 33.4125 38.25 33 38.25ZM42 38.25C41.5854 38.25 41.25 38.5869 41.25 39V47.25C41.25 47.6631 41.5854 48 42 48C42.4146 48 42.75 47.6631 42.75 47.25V39C42.75 38.5875 42.4125 38.25 42 38.25Z" fill="#13376B"/>
+            </svg>
+
+          </div>
+          <h5 class="text-center ml-10">Assured Destruction</h5>
+        </div>
+        <div class="text-center ">
+          <p class="text-gray-600 p-5" >
+            Safeguard sensitive items with our secure and certified assured destruction services.</p>
+        </div>
+
+       <div class="pt-10 p-5 rounded-lg shadow-lg border  h-[140px] w-full  transition duration-300 transform hover:scale-105">
+          <div class="flex">
+            <h5 class="bg-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-center">
+              3
+            </h5>
+            <svg class="mx-auto" width="42" height="48" viewBox="0 0 42 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.8375 6L13.4813 1.7625C14.1656 0.666094 15.3656 0 16.6594 0H25.3406C26.6344 0 27.8344 0.666094 28.5188 1.7625L31.1625 6H41.25C41.6625 6 42 6.33563 42 6.75C42 7.16437 41.6625 7.5 41.25 7.5H0.75C0.335812 7.5 0 7.16437 0 6.75C0 6.33563 0.335812 6 0.75 6H10.8375ZM12.6 6H29.4L27.2438 2.5575C26.8313 1.89938 26.1094 1.5 25.3406 1.5H16.6594C15.8906 1.5 15.1687 1.89938 14.7562 2.5575L12.6 6ZM3.75 10.5C4.16437 10.5 4.5 10.8375 4.5 11.25V41.25C4.5 44.1469 6.85031 46.5 9.75 46.5H32.25C35.1469 46.5 37.5 44.1469 37.5 41.25V11.25C37.5 10.8375 37.8375 10.5 38.25 10.5C38.6625 10.5 39 10.8375 39 11.25V41.25C39 44.9813 35.9813 48 32.25 48H9.75C6.0225 48 3 44.9813 3 41.25V11.25C3 10.8375 3.33562 10.5 3.75 10.5ZM12.75 39C12.75 39.4125 12.4125 39.75 12 39.75C11.5875 39.75 11.25 39.4125 11.25 39V15C11.25 14.5875 11.5875 14.25 12 14.25C12.4125 14.25 12.75 14.5875 12.75 15V39ZM21.75 39C21.75 39.4125 21.4125 39.75 21 39.75C20.5875 39.75 20.25 39.4125 20.25 39V15C20.25 14.5875 20.5875 14.25 21 14.25C21.4125 14.25 21.75 14.5875 21.75 15V39ZM30.75 39C30.75 39.4125 30.4125 39.75 30 39.75C29.5875 39.75 29.25 39.4125 29.25 39V15C29.25 14.5875 29.5875 14.25 30 14.25C30.4125 14.25 30.75 14.5875 30.75 15V39Z" fill="#13376B"/>
             </svg>
+          </div>
+          <h5 class="ml-8 text-center">Waste Management</h5>
         </div>
-        <h5 class="ml-8 mt-2">Waste Management</h5>
+        <div class="text-center ">
+          <p class="text-gray-600 p-5" >
+            Optimize waste handling and disposal with our efficient waste management solutions.</p>
+        </div>
+
+        </div>
       </div>
-    </div>
+    </section>
   </div>
+ 
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { useAnimations } from '@/composables/useAnimations'
 
+
+const { setupAnimations } = useAnimations()
+const leftSvg1 = ref(null);
+const rightSvg1 = ref(null);
+const rightSvg2 = ref(null);
+const paragraph1 = ref(null);
+const paragraph2 = ref(null);
+const paragraph3 = ref(null);
+
+setupAnimations([
+  {
+    element: leftSvg1,
+    props: { x: ['-100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.7, easing: 'ease-out' }
+  },
+  {
+    element: rightSvg1,
+    props: { translateX: ['100%', '0'], opacity: [0, 1] },
+    options: { duration: 0.7, easing: 'ease-out' }
+  },
+  {
+    element: rightSvg2,
+    props: { translateX: ['100%', '0'], opacity: [0, 1] },
+    options: { duration: 0.7, easing: 'ease-out' }
+  },
+  {
+    element: paragraph1,
+    props: { translateY: [100, 0], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out' }
+  },
+  {
+    element: paragraph2,
+    props: { translateY: [100, 0], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out' }
+  },
+  {
+    element: paragraph3,
+    props: { translateY: [100, 0], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out' }
+  },
+])
 </script>
 
 <style scoped>

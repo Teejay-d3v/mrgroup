@@ -15,8 +15,7 @@
 
       <section  class="my-10">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 ">
-          <!-- First Card -->
-          <div ref="card1" class="flex flex-col lg:h-[550px] p-5 lg:p-12 gap-4 border rounded-[12px] text-left shadow-md">
+          <div ref="card1" class="flex flex-col lg:h-[550px] items-center md:items-start p-5 lg:p-12 gap-4 border rounded-[12px] text-left shadow-md">
             <p>01.</p>
             <div class="flex justify-left mb-4">
               <svg width="125" height="100" viewBox="0 0 125 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +23,7 @@
                 </svg>
 
             </div>
-            <div>
+            <div class="text-center md:text-left">
               <h4 class="text-gray-900 mb-3">Reverse Logistics</h4>
               <p class="leading-relaxed text-base">At HMR Reverse Logistics, we specialize in transforming surplus and returned products into valuable assets through efficient and sustainable reverse logistics solutions.</p>
             </div>
@@ -38,8 +37,7 @@
             </div>
           </div>
 
-          <!-- Second Card -->
-          <div ref="card2" class="flex flex-col h-full p-5 lg:p-12 gap-4 border rounded-[12px] text-left shadow-md">
+          <div ref="card2" class="flex flex-col h-full p-5 lg:p-12 items-center md:items-start gap-4 border rounded-[12px] text-left shadow-md">
             <p>02.</p>
             <div class="flex justify-left mb-4">
               <svg width="113" height="100" viewBox="0 0 113 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +45,7 @@
               </svg>
 
             </div>
-            <div>
+            <div class="text-center md:text-left">
               <h4 class="text-gray-900 mb-3">Trading Haus</h4>
               <p class="leading-relaxed text-base">Our Trading Haus store offers a wide range of general merchandise, providing quality products to meet your retail needs at competitive prices with exceptional service.</p>
             </div>
@@ -61,8 +59,7 @@
             </div>
           </div>
 
-          <!-- Third Card -->
-          <div ref="card3" class="flex flex-col h-full p-5 lg:p-12 gap-4 border rounded-[12px] text-left shadow-md">
+          <div ref="card3" class="flex flex-col h-full p-5 lg:p-12 items-center md:items-start gap-4 border rounded-[12px] text-left shadow-md">
             <p>03.</p>
             <div class="flex justify-left mb-4">
               <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +67,7 @@
                 </svg>
 
             </div>
-            <div>
+            <div class="text-center md:text-left">
               <h4 class="text-gray-900 mb-3">Auctions</h4>
               <p class="leading-relaxed text-base">HMR Auction facilitates the sale of items, including automotive and machinery, through a transparent and efficient auction process.</p>
             </div>
@@ -86,12 +83,9 @@
         </div>
       </section>
 
-
-
       <section  class="mt-5">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          <!-- First Card -->
-          <div ref="card4" class="flex flex-col col-span-12 lg:col-span-4 h-auto p-5 lg:p-12 gap-4 border rounded-[12px] text-left shadow-md">
+          <div ref="card4" class="flex flex-col col-span-12 lg:col-span-4 h-auto items-center md:items-start p-5 lg:p-12  gap-4 border rounded-[12px] text-left shadow-md">
             <p>04.</p>
             <div class="flex justify-left mb-4">
               <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,8 +93,10 @@
                 </svg>
 
             </div>
-            <h2 class="text-gray-900 mb-3 text-lg lg:text-2xl font-semibold">Reverse Logistics</h2>
-            <p class="leading-relaxed text-base">At HMR Reverse Logistics, we specialize in transforming surplus and returned products into valuable assets through efficient and sustainable reverse logistics solutions.</p>
+            <div class="text-center md:text-left">
+              <h2 class="text-gray-900 mb-3 text-lg lg:text-2xl font-semibold">Reverse Logistics</h2>
+              <p class="leading-relaxed text-base">At HMR Reverse Logistics, we specialize in transforming surplus and returned products into valuable assets through efficient and sustainable reverse logistics solutions.</p>
+            </div>
             <div class="mt-4">
               <a class="text-orange-500 inline-flex items-center mt-3" style="width: 100%;">
                 Learn More
@@ -111,7 +107,6 @@
             </div>
           </div>
 
-          <!-- Image Section -->
             <div class="col-span-12 lg:col-span-8 relative mb-16 lg:mb-0 order-2 lg:order-1">
               <div class="relative z-20">
                 <img
@@ -121,7 +116,7 @@
                   alt="Environment Image 1"
 
                 />
-                <!-- Second Card -->
+   
                 <img
                   ref="secondImage"
                   src="/public/images/enviro2.png"
@@ -133,8 +128,6 @@
               </div>
             </div>
           </section>
-
-   
       </div>
     </div>
   </div>

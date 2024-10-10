@@ -20,14 +20,14 @@
         </div>
 
         <div
-          class="text-white col-span-6 grid place-content-center h-full px-4 bg-blue-900 lg:px-16 space-y-4 order-1 lg:order-2 pb-12 lg:pb-0"
+          class="text-white col-span-6 grid place-content-center h-full  bg-blue-900 px-16 space-y-4 order-1 lg:order-2 pb-12 lg:pb-0"
         >
-          <div class="max-w-xl w-full gap-8">
+          <div class="max-w-xl w-full gap-8 py-10 lg:py-0">
             <div class="pr-10">
-              <h1 class="text-3xl title-font font-medium mb-1">Main Reverse Logistics Locations</h1>
+              <h1 ref="title" class="text-3xl title-font font-medium mb-1">Main Reverse Logistics Locations</h1>
             </div>
             <div>
-              <p class="leading-relaxed">
+              <p ref="paragraph" class="leading-relaxed">
                 We provide comprehensive reverse logistics services to clients across the globe, ensuring seamless recovery and redistribution of assets. Our global reach enables us to support businesses in reducing waste and maximizing value, no matter where they operate.
               </p>
             </div>
@@ -35,7 +35,7 @@
 
           <div class="max-w-xl w-full flex gap-8">
             <div>
-              <ul>
+              <ul ref="list1">
                 <li class="flex items-center space-x-2 mb-4 px-5"> 
                   <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -71,7 +71,7 @@
               </ul>
             </div>
             <div>
-              <ul>
+              <ul ref="list2">
                 <li class="flex items-center space-x-2 mb-4 px-5">
                   <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -106,8 +106,8 @@
                 </li>
               </ul>
             </div>
-            <div>
-              <ul>
+            <div >
+              <ul ref="list3">
                 <li class="flex items-center space-x-2 mb-4 px-5">
                   <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -150,6 +150,44 @@
 </template>
 
 <script setup>
+
+import { ref } from 'vue'
+import { useAnimations } from '@/composables/useAnimations'
+const title= ref(null)
+const paragraph = ref(null)
+const list1 = ref(null)
+const list2 = ref(null)
+const list3 = ref(null)
+
+const { setupAnimations } = useAnimations()
+setupAnimations([
+  {
+    element: title,
+    props: { y: [-20, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out' }
+  },
+  {
+    element: paragraph,
+    props: { y: [0, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out', delay: 0.2 }
+  },
+  {
+    element: list1,
+    props: { translateX: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.6, easing: 'ease-out' }
+  },
+  {
+    element: list2,
+    props: { translateX: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.7, easing: 'ease-out' }
+  },
+  {
+    element: list3,
+    props: { translateX: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out' }
+  }
+
+])
 </script>
 
 <style scoped>
