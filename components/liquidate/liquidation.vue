@@ -33,7 +33,7 @@ setupAnimations([
   },
   {
     element: paragraph,
-    props: { x: [-50, 0], opacity: [0, 1] },
+    props: { y: [50, 0], opacity: [0, 1] },
     options: { duration: 0.8, easing: 'ease-out', delay: 0.2 }
   },
 ])

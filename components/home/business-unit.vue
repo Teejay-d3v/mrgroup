@@ -169,18 +169,18 @@ setupAnimations([
   },
   {
     element: card1,
-    props: { y: [50, 0], opacity: [0, 1] },
-    options: { duration: 0.6, stagger: 0.15, easing: 'ease-out' }
+    props: { x: [-100, 0], opacity: [0, 1] },
+    options: { duration: 0.6, easing: 'ease-out' }
   },
   {
     element: card2,
-    props: { y: [50, 0], opacity: [0, 1] },
-    options: { duration: 0.6, stagger: 0.15, easing: 'ease-out' }
+    props: { y: [100, 0], opacity: [0, 1] },
+    options: { duration: 0.6,  easing: 'ease-out' }
   },
   {
     element: card3,
-    props: { y: [50, 0], opacity: [0, 1] },
-    options: { duration: 0.6, stagger: 0.15, easing: 'ease-out' }
+    props: { x: [100, 0], opacity: [0, 1] },
+    options: { duration: 0.6,  easing: 'ease-out' }
   },
   {
     element: card4,
