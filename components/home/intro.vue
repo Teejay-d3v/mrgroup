@@ -1,26 +1,48 @@
 <template>
   <section>
-    <div class="cusotm-bg-image  flex flex-col items-center justify-center text-white text-center px-0 sm:px-10  md:px-12 lg:px-16">
-      <h1 class="mb-4 text-5xl sm:text-6xl lg:text-7xl sm:px-14 lg:px-32 xl:px-40 2xl:px-72 font-extrabold shadow-text font-display" style="">
-          Maximize the Value of surplus with HMR Reverse Logistics
-      </h1>
-      <p class="text-sm md:text-base justify-center text-center mb-10 px-10 sm:px-14 lg:px-32 xl:px-40 2xl:px-72">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste fuga praesentium laborum laboriosam cum. Voluptates hic quidem vitae, modi voluptate possimus eum, nihil, praesentium laborum laboriosam cum. Voluptates hic quidem vitae, modi voluptate possimus eum, nihil,
-      </p>
-      <div class="flex space-x-4">
-          <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-            Explore Services
-        </button>
-        <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-            Explore Services
-        </button>
+    <div class="container mx-auto " style="width: 1600px; height: 891px; display: flex; justify-content: center; align-items: center; ">
+        <div ref="title" class="text-center ">
+          <h1 class="mb-4  sm:text-6xl lg:text-7xl sm:px-14 lg:px-32 xl:px-40 2xl:px-72  shadow-text ">
+            Maximize the Value of surplus with HMR Reverse Logistics
+          </h1>
+          <p ref="paragraph1" class="text-center text-base mb-10 mx-auto px-4 sm:px-14 lg:px-32 xl:px-40 2xl:px-72">
+            Transforming Excess Inventory into Valuable Assets with Innovative Solutions and Sustainable Practices.
+          </p>
+          <div class="flex space-x-4 justify-center">
+            <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
+              Explore Services
+            </button>
+            <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
+              Explore Services
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
   </section>
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { useAnimations } from '@/composables/useAnimations'
+import Card from '@/components/Card.vue'
+const title = ref(null)
+const paragraph1 = ref(null)
 
+
+const { setupAnimations } = useAnimations()
+
+setupAnimations([
+  {
+    element: title,
+    props: { y: [-20, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out' }
+  },
+  {
+    element: paragraph1,
+    props: { x: [-50, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out', delay: 0.2 }
+  }
+])
 </script>
 
 <style scoped>

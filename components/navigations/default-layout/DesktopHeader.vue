@@ -80,13 +80,14 @@
       </div>
 
 
-      <div class="container mx-auto" style="width: 1600px; height: 891px; display: flex; justify-content: center; align-items: center; ">
+      <!-- <div class="container mx-auto" style="width: 1600px; height: 891px; display: flex; justify-content: center; align-items: center; ">
         <div class="text-center ">
           <h1 class="mb-4 text-5xl sm:text-6xl lg:text-7xl sm:px-14 lg:px-32 xl:px-40 2xl:px-72 font-extrabold shadow-text font-display">
             Maximize the Value of surplus with HMR Reverse Logistics
           </h1>
           <p class="text-sm md:text-base justify-center text-center mb-10 px-10 sm:px-14 lg:px-32 xl:px-40 2xl:px-72">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste fuga praesentium laborum laboriosam cum. Voluptates hic quidem vitae, modi voluptate possimus eum, nihil, praesentium laborum laboriosam cum. Voluptates hic quidem vitae, modi voluptate possimus eum, nihil,
+            Transforming Excess Inventory into Valuable Assets with 
+Innovative Solutions and Sustainable Practices.
           </p>
           <div class="flex space-x-4 justify-center">
             <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
@@ -97,16 +98,16 @@
             </button>
           </div>
         </div>
-      </div>
+      </div> -->
 
-
+      <Intro />
 
     </div>
   </section>
 </template>
 
 <script setup>
-// Your script logic here
+import Intro from '@/components/home/Intro.vue'
 </script>
 
 <style scoped>

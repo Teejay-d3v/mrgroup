@@ -15,26 +15,22 @@
       <div class="flex flex-col lg:flex-row items-start relative w-full">
         <div class="flex flex-col justify-center items-end lg:w-1/2 w-full pr-4 lg:pr-8">
           <div>
-            <img 
-              src="/public/images/ourservice.png" 
-              alt="Left Side Image" 
-              class="h-24 w-24 object-contain"
-            />
+            <svg width="150" height="120" viewBox="0 0 150 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M52.5 60C69.0703 60 82.5 46.568 82.5 30C82.5 13.432 69.0703 0 52.5 0C35.9297 0 22.5 13.432 22.5 30C22.5 46.568 35.9297 60 52.5 60ZM52.5 3.75C66.975 3.75 78.75 15.525 78.75 30C78.75 44.475 66.9844 56.25 52.5 56.25C38.0156 56.25 26.25 44.4844 26.25 30C26.25 15.5156 38.0156 3.75 52.5 3.75ZM64.3828 71.25H40.6172C18.1898 71.25 0 89.4375 0 111.867C0 116.367 3.6375 120 8.12344 120H96.8812C101.367 120 105 116.367 105 111.867C105 89.4375 86.8125 71.25 64.3828 71.25ZM96.8672 116.25H8.12578C5.71172 116.25 3.75 114.281 3.75 111.867C3.75 91.5469 20.2922 75 40.6172 75H64.3594C84.7031 75 101.25 91.5469 101.25 111.867C101.25 114.281 99.2812 116.25 96.8672 116.25ZM148.125 50.625H129.375V31.875C129.375 30.8438 128.531 30 127.5 30C126.469 30 125.625 30.8423 125.625 31.875V50.625H106.875C105.844 50.625 105 51.4688 105 52.5C105 53.5312 105.842 54.375 106.875 54.375H125.625V73.125C125.625 74.1562 126.469 75 127.5 75C128.531 75 129.375 74.1577 129.375 73.125V54.375H148.125C149.156 54.375 150 53.5312 150 52.5C150 51.4688 149.156 50.625 148.125 50.625Z" fill="#13376B"/>
+            </svg>
           </div>
-          <div class="text-right pt-16 custom-text-box">
+          <div class="text-right pt-20 custom-text-box">
             <h5>List</h5>
-            <p class="text-gray-600">Add the items or inventory you’re looking to sell with us. We only need basic information to set up your listings.</p>
+            <p class="text-gray-600 mt-2">Add the items or inventory you’re looking to sell with us. We only need basic information to set up your listings.</p>
           </div>
           <div class="pt-16">
-            <img 
-              src="/public/images/ourservice.png" 
-              alt="Left Side Image" 
-              class="h-24 w-24 object-contain"
-            />
+            <svg width="138" height="120" viewBox="0 0 138 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.28571 100.714C4.28571 108.991 11.0009 115.714 19.2857 115.714H135C136.179 115.714 137.143 116.679 137.143 117.857C137.143 119.036 136.179 120 135 120H19.2857C8.63571 120 0 111.375 0 100.714V2.14286C0 0.958929 0.959464 0 2.14286 0C3.32679 0 4.28571 0.958929 4.28571 2.14286V100.714ZM87.2411 70.0982C86.3839 70.9286 85.0446 70.9286 84.1875 70.0982L60 45.8839L27.2411 78.6696C26.392 79.5 25.0366 79.5 24.1982 78.6696C23.3625 77.8125 23.3625 76.4732 24.1982 75.6161L58.4732 41.3304C59.3304 40.5 60.6696 40.5 61.5268 41.3304L85.7143 65.5446L124.902 26.3304C125.759 25.5 127.098 25.5 127.955 26.3304C128.786 27.1875 128.786 28.5268 127.955 29.3839L87.2411 70.0982Z" fill="#13376B"/>
+            </svg>
           </div>
           <div class="text-right pt-20 custom-text-box">
             <h5>Selling & Shipping</h5>
-            <p class="text-gray-600">Once everything is set up, we begin liquidating your inventory and assets. We are also happy to take care of all re-packaging and shipping services you might need in order to get your stock to the highest bidder.</p>
+            <p class="text-gray-600 mt-2">Once everything is set up, we begin liquidating your inventory and assets. We are also happy to take care of all re-packaging and shipping services you might need in order to get your stock to the highest bidder.</p>
           </div>
         </div>
 
@@ -42,27 +38,27 @@
         <div class="flex flex-col items-center">
           <!-- Vertical Lines -->
           <div class="w-px bg-gray-300"></div>
-          <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
-            1
-          </div>
+            <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
+              1
+            </div>
           <div class="w-px h-20 bg-gray-300 mt-2"></div>
 
-          <div class="w-px h-10 bg-gray-300"></div>
-          <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
-            2
-          </div>
+          <div class="w-px h-20 bg-gray-300"></div>
+            <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
+              2
+            </div>
           <div class="w-px h-20 bg-gray-300 mt-2"></div>
 
-          <div class="w-px h-10 bg-gray-300"></div>
-          <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
-            3
-          </div>
+          <div class="w-px h-20 bg-gray-300"></div>
+            <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
+              3
+            </div>
           <div class="w-px h-20 bg-gray-300 mt-2"></div>
 
-          <div class="w-px h-10 bg-gray-300"></div>
-          <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
-            4
-          </div>
+          <div class="w-px h-20 bg-gray-300"></div>
+            <div class="bg-slate-200 text-black font-bold text-lg w-8 h-8 flex items-center justify-center rounded-full">
+              4
+            </div>
           <div class="w-px bg-gray-300 mt-2"></div>
         </div>
 
@@ -71,27 +67,24 @@
         <div class="flex flex-col justify-center items-start lg:w-1/2 w-full ml-4 lg:ml-8">
           <div class="text-left custom-text-box">
             <h5>Sign-up</h5>
-            <p class="text-gray-600">Create your account in a few easy steps and gain access to our auction platform with thousands of registered buyers.</p>
+            <p class="text-gray-600 mt-2">Create your account in a few easy steps and gain access to our auction platform with thousands of registered buyers.</p>
           </div>
           <div class="pt-20">
-            <img 
-              src="/public/images/ourservice.png" 
-              alt="Right Side Image" 
-              class="h-24 w-24 object-contain"
-            />
+            <svg width="133" height="120" viewBox="0 0 133 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M52.8482 0H107.143C111.884 0 115.714 3.83839 115.714 8.57143V25.7143C115.714 30.4554 111.884 34.2857 107.143 34.2857H52.8482C50.5714 34.2857 48.375 33.375 46.7679 31.7679L35.1696 20.1696C33.5089 18.5089 33.5089 15.7875 35.1696 14.1134L46.7679 2.50982C48.375 0.902678 50.5714 0 52.8482 0ZM49.7946 28.7411C50.5982 29.5446 51.6964 30 52.8482 30H107.143C109.5 30 111.429 28.0714 111.429 25.7143V8.57143C111.429 6.20357 109.5 4.28571 107.143 4.28571H52.8482C51.6964 4.28571 50.5982 4.73839 49.7946 5.54196L38.1964 17.1429L49.7946 28.7411ZM12.8571 30C5.75625 30 0 24.2411 0 17.1429C0 10.042 5.75625 4.28571 12.8571 4.28571C19.958 4.28571 25.7143 10.042 25.7143 17.1429C25.7143 24.2411 19.958 30 12.8571 30ZM21.4286 17.1429C21.4286 12.4098 17.5902 8.57143 12.8571 8.57143C8.12411 8.57143 4.28571 12.4098 4.28571 17.1429C4.28571 21.8839 8.12411 25.7143 12.8571 25.7143C17.5902 25.7143 21.4286 21.8839 21.4286 17.1429ZM12.8571 72.8571C5.75625 72.8571 0 67.0982 0 60C0 52.9018 5.75625 47.1429 12.8571 47.1429C19.958 47.1429 25.7143 52.9018 25.7143 60C25.7143 67.0982 19.958 72.8571 12.8571 72.8571ZM21.4286 60C21.4286 55.2589 17.5902 51.4286 12.8571 51.4286C8.12411 51.4286 4.28571 55.2589 4.28571 60C4.28571 64.7411 8.12411 68.5714 12.8571 68.5714C17.5902 68.5714 21.4286 64.7411 21.4286 60ZM12.8571 90C19.958 90 25.7143 95.7589 25.7143 102.857C25.7143 109.955 19.958 115.714 12.8571 115.714C5.75625 115.714 0 109.955 0 102.857C0 95.7589 5.75625 90 12.8571 90ZM4.28571 102.857C4.28571 107.598 8.12411 111.429 12.8571 111.429C17.5902 111.429 21.4286 107.598 21.4286 102.857C21.4286 98.1161 17.5902 94.2857 12.8571 94.2857C8.12411 94.2857 4.28571 98.1161 4.28571 102.857ZM52.8482 85.7143H107.143C111.884 85.7143 115.714 89.5446 115.714 94.2857V111.429C115.714 116.17 111.884 120 107.143 120H52.8482C50.5714 120 48.375 119.089 46.7679 117.482L35.1696 105.884C33.5089 104.223 33.5089 101.491 35.1696 99.8304L46.7679 88.2321C48.375 86.625 50.5714 85.7143 52.8482 85.7143ZM49.7946 114.455C50.5982 115.259 51.6964 115.714 52.8482 115.714H107.143C109.5 115.714 111.429 113.786 111.429 111.429V94.2857C111.429 91.9286 109.5 90 107.143 90H52.8482C51.6964 90 50.5982 90.4554 49.7946 91.2589L38.1964 102.857L49.7946 114.455ZM35.1696 56.9732L46.7679 45.375C48.375 43.7679 50.5714 42.8571 52.8482 42.8571H124.286C129.027 42.8571 132.857 46.6875 132.857 51.4286V68.5714C132.857 73.3125 129.027 77.1429 124.286 77.1429H52.8482C50.5714 77.1429 48.375 76.2321 46.7679 74.625L35.1696 63.0268C33.5089 61.3661 33.5089 58.6339 35.1696 56.9732ZM49.7946 48.4018L38.1964 60L49.7946 71.5982C50.5982 72.4018 51.6964 72.8571 52.8482 72.8571H124.286C126.643 72.8571 128.571 70.9286 128.571 68.5714V51.4286C128.571 49.0714 126.643 47.1429 124.286 47.1429H52.8482C51.6964 47.1429 50.5982 47.5982 49.7946 48.4018Z" fill="#13376B"/>
+              </svg>
+
           </div>
 
-          <div class="text-left pt-16 custom-text-box">
+          <div class="text-left pt-24 custom-text-box">
             <h5>Tailored Analysis</h5>
-            <p class="text-gray-600">Inspect, repair, and restore products to like-new condition by skilled technicians. Salvaged components from non-repairable items are repurposed to maximize value.</p>
+            <p class="text-gray-600 mt-2">Inspect, repair, and restore products to like-new condition by skilled technicians. Salvaged components from non-repairable items are repurposed to maximize value.</p>
           </div>
 
-          <div class="pt-14">
-            <img 
-              src="/public/images/ourservice.png" 
-              alt="Right Side Image" 
-              class="h-24 w-24 object-contain"
-            />
+          <div class="pt-16">
+            <svg width="150" height="120" viewBox="0 0 150 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M55.9922 37.5H66.6797C70.4297 37.5 71.8594 42.3984 68.6953 44.4141L39.2812 63.1406C35.9766 65.2266 32.0625 61.5 34.0078 58.1016L41.5078 44.7891H30.8203C27.0703 44.7891 25.6406 40.1016 28.8047 38.0859L58.2188 19.3641C61.5234 17.2617 65.4375 20.9883 63.4922 24.3984L55.9922 37.5ZM44.7422 41.0391C45.3984 41.0391 46.0078 41.6016 46.3594 41.9766C46.6875 42.7734 46.6875 43.4766 46.3594 43.8516L37.0547 59.9766L66.6797 41.25H52.7578C52.1016 41.25 51.4922 40.8984 51.1406 40.3125C50.8125 39.7266 50.8125 39.0234 51.1406 38.4375L60.2344 22.5258L30.8203 41.0391H44.7422ZM0 82.5V15C0 6.71484 6.71484 0 15 0H82.5C90.7734 0 97.5 6.71484 97.5 15V22.5H111.258C113.766 22.5 116.133 23.4844 117.891 25.2422L139.758 46.8984C141.516 48.8672 142.5 51.2344 142.5 53.7422V93.75H148.125C149.156 93.75 150 94.5938 150 95.625C150 96.6562 149.156 97.5 148.125 97.5H134.906C134.977 98.1094 135 98.7422 135 99.375C135 110.766 125.766 120 114.375 120C102.984 120 93.75 110.766 93.75 99.375C93.75 98.7422 93.7734 98.1094 93.8438 97.5H56.1562C56.2266 98.1094 56.25 98.7422 56.25 99.375C56.25 110.766 47.0156 120 35.625 120C24.2344 120 15 110.766 15 99.375C15 98.7422 15.0281 98.1094 15.0844 97.5H15C6.71484 97.5 0 90.7734 0 82.5ZM82.5 3.75H15C8.78672 3.75 3.75 8.78672 3.75 15V82.5C3.75 88.7109 8.78672 93.75 15 93.75H15.7758C18.225 85.1016 26.1797 78.75 35.625 78.75C45.0703 78.75 53.0156 85.1016 55.4766 93.75H93.75V15C93.75 8.78672 88.7109 3.75 82.5 3.75ZM97.5 26.25V50.625H137.812C137.602 50.3203 137.367 50.0156 136.898 49.7578L115.242 27.8906C114.188 26.8359 112.758 26.25 111.258 26.25H97.5ZM114.375 78.75C123.82 78.75 131.766 85.1016 134.227 93.75H138.75V54.375H97.5V87.5156C101.227 82.2188 107.391 78.75 114.375 78.75ZM35.625 116.25C44.9531 116.25 52.5 108.703 52.5 99.375C52.5 90.0469 44.9531 82.5 35.625 82.5C26.2969 82.5 18.75 90.0469 18.75 99.375C18.75 108.703 26.2969 116.25 35.625 116.25ZM114.375 82.5C105.047 82.5 97.5 90.0469 97.5 99.375C97.5 108.703 105.047 116.25 114.375 116.25C123.703 116.25 131.25 108.703 131.25 99.375C131.25 90.0469 123.703 82.5 114.375 82.5Z" fill="#13376B"/>
+              </svg>
           </div>
         </div>
       </div>
@@ -111,8 +104,8 @@
               alt="List Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
-            <h5 class="pt-5 font-semibold">List</h5>
-            <p class="text-gray-600">Add the items or inventory you’re looking to sell with us. We only need basic information to set up your listings.</p>
+            <h5 class="pt-5 font-semibold">Inventory Management</h5>
+            <p class="text-gray-600">Categorize, sort, and store items efficiently to streamline the flow of products through the reverse logistics process. Real-time tracking ensures optimal storage and accessibility.</p>
           </div>
 
           <!-- Second Service -->
@@ -122,8 +115,8 @@
               alt="Selling & Shipping Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
-            <h5 class="pt-5 font-semibold">Selling & Shipping</h5>
-            <p class="text-gray-600">We begin liquidating your inventory and take care of all re-packaging and shipping services to get your stock to the highest bidder.</p>
+            <h5 class="pt-5 font-semibold">Recommerce</h5>
+            <p class="text-gray-600">Resell refurbished products through online platforms, physical stores, or B2B channels. This approach extends product life, reduces environmental impact, and offers cost-effective alternatives.</p>
           </div>
 
           <!-- Third Service -->
@@ -133,8 +126,8 @@
               alt="Sign-up Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
-            <h5 class="pt-5 font-semibold">Sign-up</h5>
-            <p class="text-gray-600">Create your account in a few easy steps and gain access to our auction platform with thousands of registered buyers.</p>
+            <h5 class="pt-5 font-semibold">Sourcing</h5>
+            <p class="text-gray-600">Collect surplus, returned, or end-of-life products from suppliers, retailers, or customers. This step reduces waste and sets the foundation for reuse or recycling.</p>
           </div>
 
           <!-- Fourth Service -->
@@ -144,7 +137,7 @@
               alt="Tailored Analysis Service" 
               class="h-24 w-24 object-contain mx-auto"
             />
-            <h5 class="pt-5 font-semibold">Tailored Analysis</h5>
+            <h5 class="pt-5 font-semibold">Refurbishing & Repair</h5>
             <p class="text-gray-600">Inspect, repair, and restore products by skilled technicians. Salvaged components from non-repairable items are repurposed to maximize value.</p>
           </div>
         </div>

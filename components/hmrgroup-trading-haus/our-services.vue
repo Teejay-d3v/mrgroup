@@ -7,56 +7,53 @@
           <div class="flex flex-wrap justify-center">
             <!-- Card 1 -->
             <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col justify-between min-h-[300px]">
-                <div class="flex justify-center mb-4">
-                  <img class="w-24 h-24" src="https://dummyimage.com/100x100/c4c4c4/000000.png" alt="Auto Auctions">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col  min-h-[428px]">
+                <div class="flex justify-center mt-10">
+                  <img class="w-[293.56px] " src="@/public/images/trading-haus.png" alt="Auto Auctions">
                 </div>
-                <h1 class="custom-h1 text-center mb-4">Auto Auctions</h1>
+                <div class="p-14">
+                <h1 class="custom-h1 text-left mb-4">Trading Haus</h1>
                 <ul class="list-disc list-inside flex-grow">
-                  <li>Auto Auctions For Corporate Fleets And Bank Repossessions</li>
-                  <li>Repair And Refurbishment Services</li>
-                  <li>Motorcycle Repossession Management</li>
+                  <li>Destination Discount Retail Stores</li>
+                  <li>Full Range Of Products Sourced By HPI</li>
+                  <li>Consignment Program To Suppliers</li>
                 </ul>
+                </div>
               </div>
             </div>
-            <!-- Card 2 -->
+
             <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col justify-between min-h-[300px]">
-                <div class="flex justify-center mb-4">
-                  <img class="w-24 h-24" src="https://dummyimage.com/100x100/c4c4c4/000000.png" alt="Machinery Auctions">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col  min-h-[428px]">
+                <div class="flex justify-center mt-8">
+                  <img class="w-[164.17px] h-[67.07px] " src="@/public/images/trading-haus2.png" alt="Auto Auctions">
                 </div>
-                <h1 class="custom-h1 text-center mb-4">Machinery Auctions</h1>
+                <div class="p-14">
+                <h1 class="custom-h1 text-left mb-4">SOS</h1>
                 <ul class="list-disc list-inside flex-grow">
-                  <li>Production Equipment And Construction Machinery</li>
-                  <li>Repair And Refurbishment Services</li>
+                  <li>Smaller Outlets In Remote Locations Across The Philippines</li>
+                  <li>Franchise Model Reduces Risk And Lowers CapEx Requirements</li>
                 </ul>
+                </div>
               </div>
             </div>
-            <!-- Card 3 -->
+
+
             <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col justify-between min-h-[300px]">
-                <div class="flex justify-center mb-4">
-                  <img class="w-24 h-24" src="https://dummyimage.com/100x100/c4c4c4/000000.png" alt="Online Bidding">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col  min-h-[428px]">
+                <div class="flex justify-center ">
+                  <img class="w-[103.81px] mt-5" src="@/public/images/trading-haus3.png" alt="Auto Auctions">
                 </div>
-                <h1 class="custom-h1 text-center mb-4">Online Bidding</h1>
+                <div class="p-14">
+                <h1 class="custom-h1 text-left mb-4">HMR Online</h1>
                 <ul class="list-disc list-inside flex-grow">
-                  <li>Real-Time Online Bidding Platform</li>
-                  <li>Wide Range Of Assets, Incl. Real Estate</li>
+                  <li>Business-2-Consumer Digital Platform</li>
+                  <li>Convenient Shopping Features</li>
+                  <li>Remote Platform For Consignors</li>
                 </ul>
+                </div>
               </div>
             </div>
-            <!-- Card 4 -->
-            <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col justify-between min-h-[300px]">
-                <div class="flex justify-center mb-4">
-                  <img class="w-24 h-24" src="https://dummyimage.com/100x100/c4c4c4/000000.png" alt="Real Estate">
-                </div>
-                <h1 class="custom-h1 text-center mb-4">Real Estate</h1>
-                <ul class="list-disc list-inside flex-grow">
-                  <li>Residential, Condominiums, Houses, Lots, Commercial Properties</li>
-                </ul>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>

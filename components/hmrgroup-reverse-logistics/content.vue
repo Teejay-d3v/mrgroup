@@ -29,7 +29,7 @@
         <!-- Image on the Right -->
         <div class="w-full md:w-1/2 flex justify-center"> 
           <img class="object-cover object-center w-full h-auto rounded-r-lg" 
-          alt="team" src="/public/images/ourservice.png">
+          alt="team" src="/public/images/surplus2.png">
         </div>
       </div>
     </section>
