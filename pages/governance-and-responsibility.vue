@@ -5,7 +5,7 @@
     <SupplyChain />
     <BusinessSolution />
     <OurServices /> 
-    <Logo />  
+    <Accreditation />  
   </div>
 
 </template>
@@ -16,7 +16,7 @@ import Pillar from "../components/governance-and-responsibility/pilar-of-respons
 import SupplyChain from "../components/governance-and-responsibility/supply-chain.vue"
 import BusinessSolution from "../components/governance-and-responsibility/business-solutions.vue"
 import OurServices from "../components/governance-and-responsibility/our-services.vue"
-import Logo from "../components/governance-and-responsibility/logos.vue"
+import Accreditation from "../components/governance-and-responsibility/accreditation.vue"
 
   definePageMeta({
       layout: 'custom-layout',

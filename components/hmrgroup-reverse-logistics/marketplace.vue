@@ -3,13 +3,13 @@
     <section>
       <div class="flex justify-center my-10">
         <div class="flex flex-col items-center text-center w-full max-w-5xl p-4 gap-5">
-          <h1>
+          <h1 ref="title">
             Reverse Logistics Service Provider & B2B Re-Commerce Marketplace.
           </h1>
           <div>
-            <img src="/public/images/marketplace.png" alt="Marketplace Image" class="w-full h-auto">
+            <img ref="logo" src="/public/images/marketplace.png" alt="Marketplace Image" class="w-full h-auto">
           </div>
-          <p class=" text-gray-600">
+          <p ref="paragraph" class=" text-gray-600">
             With our online liquidation platform, you can sell excess inventory, returns, or other liquidation inventory directly to a wide variety of trusted buyers. This drives better than average demand, higher pricing, and faster sales cycles.
           </p>
         </div>
@@ -19,6 +19,30 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { useAnimations } from '@/composables/useAnimations'
+
+const { setupAnimations } = useAnimations()
+const title = ref(null)
+const paragraph = ref(null)
+const logo = ref(null)
+setupAnimations([
+  {
+    element: title,
+    props: { y: [-100, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out' }
+  },
+  {
+    element: paragraph,
+    props: { y: [100, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out', delay: 0.2 }
+  },
+  {
+    element: logo,
+    props: { y: [100, 0], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out', delay: 0.2 }
+  },
+])
 </script>
 
 <style scoped>

@@ -5,7 +5,7 @@
         <div class="container mx-auto p-10">
           <h1 class="custom-h1">Our Services:</h1>
           <div class="flex flex-wrap justify-center">
-            <div class="p-2 md:w-1/2">
+            <div ref="card1" class="p-2 md:w-1/2">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-10 bg-slate-200 text-black">
                 <div>
                   <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-2 md:w-1/2">
+            <div ref="card2" class="p-2 md:w-1/2">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-10 bg-slate-200 text-black">
                 <div>
                   <svg width="95" height="100" viewBox="0 0 95 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,6 +52,28 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from 'vue'
+import { useAnimations } from '@/composables/useAnimations'
+
+const { setupAnimations } = useAnimations()
+const card1 = ref([])
+const card2 = ref([])
+
+
+setupAnimations([
+  {
+    element: card1,
+    props: { x: ['-100%', '0%'], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out',   }
+  },
+  {
+    element: card2,
+    props: { x: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out',   }
+  },
+
+])
+
 </script>
 
 <style scoped>

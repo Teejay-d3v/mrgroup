@@ -67,7 +67,7 @@
           </li>
 
           <li>
-            <NuxtLink to="/" active-class="text-orange-400">
+            <NuxtLink to="/contact-us" active-class="text-orange-400">
               Contact Us
             </NuxtLink>
           </li>
@@ -81,7 +81,7 @@
 
       <div class="header-bg w-full flex justify-center items-center">
         <div class="page-name-container">
-          <span class="page-name">{{ pageName }}</span>
+          <span class="page-name">{{ typedText }}</span>
         </div>
       </div>
     </header>
@@ -96,11 +96,33 @@ import { useRoute } from 'vue-router';
 import Footer from "../components/Footer.vue";
 const route = useRoute();
 const pageName = ref(route.meta.name || '');
+const typedText = ref('');
 
+const typeText = (text) => {
+  typedText.value = ''; // Reset the typed text
+  let currentIndex = 0;
+
+  const typeInterval = setInterval(() => {
+    if (currentIndex < text.length) {
+      typedText.value += text[currentIndex];
+      currentIndex++;
+    } else {
+      clearInterval(typeInterval);
+    }
+  }, 100); // Adjust the delay time for typing speed (100ms)
+};
+
+// Start the typing effect when the component is mounted
+onMounted(() => {
+  typeText(pageName.value);
+});
+
+// Watch for route changes to restart the typing effect
 watch(
   () => route.meta.name,
   (newName) => {
     pageName.value = newName || 'Default Page';
+    typeText(pageName.value); // Restart the typing effect with the new page name
   }
 );
 </script>

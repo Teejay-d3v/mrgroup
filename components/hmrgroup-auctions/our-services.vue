@@ -5,7 +5,7 @@
         <div class="container mx-auto p-10">
           <h2>Our Services:</h2>
           <div class="flex flex-wrap justify-center mt-2">
-            <div class="p-2 md:w-1/2">
+            <div ref="card1" class="p-2 w-full lg:w-1/2">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-10 bg-slate-200 text-black">
                 <div>
                   <svg width="143" height="100" viewBox="0 0 143 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-2 md:w-1/2">
+            <div ref="card2" class="p-2 w-full lg:w-1/2">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-10 bg-slate-200 text-black">
                 <div>
                   <svg width="125" height="100" viewBox="0 0 125 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-2 md:w-1/2">
+            <div ref="card3" class="p-2 w-full lg:w-1/2">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-10 bg-slate-200 text-black">
                 <div>
                   <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-2 md:w-1/2">
+            <div ref="card4" class="p-2 w-full lg:w-1/2">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-10 bg-slate-200 text-black">
                 <div>
                   <svg width="113" height="100" viewBox="0 0 113 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,6 +81,37 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from 'vue'
+import { useAnimations } from '@/composables/useAnimations'
+
+const { setupAnimations } = useAnimations()
+const card1 = ref(null)
+const card2 = ref(null)
+const card3 = ref(null)
+const card4 = ref(null)
+
+setupAnimations([
+  {
+    element: card1,
+    props: { x: ['-100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out' }
+  },
+  {
+    element: card2,
+    props: { translateX: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out' }
+  },
+  {
+    element: card3,
+    props: { x: ['-100%', '0%'], opacity: [0, 1] },
+    options: { duration: 1, easing: 'ease-out',   }
+  },
+  {
+    element: card4,
+    props: { x: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.8, easing: 'ease-out' }
+  },
+])
 </script>
 
 <style scoped>

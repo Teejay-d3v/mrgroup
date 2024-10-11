@@ -37,10 +37,9 @@
             </li>
           </ul>
         </div>
-
       </div>
 
-      <!-- Second Image and Content Section -->
+
       <div class="container mx-auto flex flex-wrap p-5">
         <div class="grid grid-cols-1 lg:grid-cols-1 lg:block w-full">
           <img ref="image2" src="/public/images/gnr2.png" alt="Image 2" class="w-full h-[460px] object-cover rounded-lg" />
@@ -100,8 +99,6 @@
             </p>
           </div>
           <div class="flex flex-col lg:text-left leading-[36px]">
-
-
             <ul>
               <li 
                 v-for="(item, index) in valueChainItems" 

@@ -74,7 +74,7 @@
             </ul>
           </li>
           <li>
-            <NuxtLink to="/#" class="nux-link" active-class="text-orange-400">
+            <NuxtLink to="/contact-us" class="nux-link" active-class="text-orange-400">
               Contact Us
             </NuxtLink>
           </li>

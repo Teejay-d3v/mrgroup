@@ -6,7 +6,7 @@
           <h1 class="custom-h1 text-center mb-8">Our Services:</h1>
           <div class="flex flex-wrap justify-center">
             <!-- Card 1 -->
-            <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
+            <div ref="card1" class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col  min-h-[428px]">
                 <div class="flex justify-center mt-10">
                   <img class="w-[293.56px] " src="@/public/images/trading-haus.png" alt="Auto Auctions">
@@ -22,7 +22,7 @@
               </div>
             </div>
 
-            <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
+            <div ref="card2" class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col  min-h-[428px]">
                 <div class="flex justify-center mt-8">
                   <img class="w-[164.17px] h-[67.07px] " src="@/public/images/trading-haus2.png" alt="Auto Auctions">
@@ -38,7 +38,7 @@
             </div>
 
 
-            <div class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
+            <div ref="card3" class="p-2 w-full sm:w-full md:w-1/2 lg:w-1/3">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-6 bg-slate-200 text-black flex flex-col  min-h-[428px]">
                 <div class="flex justify-center ">
                   <img class="w-[103.81px] mt-5" src="@/public/images/trading-haus3.png" alt="Auto Auctions">
@@ -62,6 +62,27 @@
 </template>
 
 <script lang="ts" setup>
+const { setupAnimations } = useAnimations()
+const card1 = ref()
+const card2 = ref()
+const card3 = ref()
+setupAnimations([
+  {
+    element: card1,
+    props: { x: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.5, delay: 0.2, easing: 'ease-out' }
+  },
+  {
+    element: card2,
+    props: { x: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 0.8,  easing: 'ease-out' }
+  },
+  {
+    element: card3,
+    props: { x: ['100%', '0%'], opacity: [0, 1] },
+    options: { duration: 1.2, delay: 0.6, easing: 'ease-out' }
+  },
+])
 </script>
 
 <style scoped>
