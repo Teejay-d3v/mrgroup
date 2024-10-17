@@ -2,8 +2,8 @@
   <div>
     <section>
       <div class="flex justify-center py-10">
-        <div class="flex flex-col items-center text-center w-full max-w-5xl p-4 gap-5">
-          <p ref="title">
+        <div class="flex flex-col items-center text-center w-full max-w-5xl p-12 lg:p-4 gap-5">
+          <p ref="title ">
             At HMR Reverse Logistics, we specialize in transforming surplus and returned products into valuable assets through efficient and sustainable reverse logistics solutions.
           </p>
         </div>

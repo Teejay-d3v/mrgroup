@@ -1,14 +1,14 @@
+
+
+
+
+
 <template>
   <div>
     <header class="text-white">
-      <nav class="mx-auto flex justify-between items-center p-7">
+      <nav class="container mx-auto flex justify-between items-center py-5">
         <!-- Brand/Logo -->
-        <NuxtLink to="/" class="text-2xl font-bold text-black" style="font-family: DM Sans;
-            font-size: 38.04px;
-            font-weight: 600;
-            line-height: 49.53px;
-            text-align: left;
-            ">
+        <NuxtLink to="/" class="text-2xl font-bold text-black">
           Logo
         </NuxtLink>
 
@@ -46,7 +46,7 @@
               HMR-Group
             </NuxtLink>
 
-
+            <!-- Dropdown menu -->
             <ul class="absolute left-0 top-5 mt-1 hidden group-hover:block bg-white text-blue-950 shadow-lg rounded-md w-48 z-50">
               <li>
                 <NuxtLink to="/hmr-group-reverse-logistics" class="block px-4 py-2 hover:bg-blue-950 hover:text-white">
@@ -83,66 +83,23 @@
           List Now
         </button>
       </nav>
-
-      <div class="header-bg w-full flex justify-center items-center">
-        <div class="page-name-container">
-          <span class="page-name">{{ pageName }}</span>
-        </div>
-      </div>
     </header>
+
+    <div>
+      <slot />
+    </div>
+    <footer>
+    <Footer />
+    </footer>
   </div>
 </template>
-
-
-
 <script setup>
-import { ref, watch } from 'vue';
-import { useRoute } from 'vue-router';
 import Footer from "../components/Footer.vue";
-const route = useRoute();
-const pageName = ref(route.meta.name || '');
-
-watch(
-  () => route.meta.name,
-  (newName) => {
-    pageName.value = newName || 'Default Page';
-  }
-);
 </script>
 
 <style scoped>
-.header-bg {
-  background: linear-gradient(
-      89.65deg,
-      rgba(120, 175, 253, 0.1) 11.52%,
-      #0B2B5A 146.14%
-    ),
-  url('/public/images/header2.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 460px;
-}
-
-.page-name-container {
-  width: 816px;
-  height: 73px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.page-name {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 72.91px;
-  text-align: center;
-  color: white;
+.group:hover .group-hover\:block {
+  display: block;
 }
 
 .custom-button {
@@ -154,3 +111,4 @@ watch(
   background: #13376B;
 }
 </style>
+

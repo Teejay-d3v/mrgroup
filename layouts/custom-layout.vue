@@ -1,8 +1,8 @@
 <template>
   <div>
     <header>
-    <DesktopHeader class="hidden md:block" />
-    <MobileHeader class="md:hidden" />
+    <DesktopHeader class="hidden lg:block" />
+    <MobileHeader class="lg:hidden" />
     </header>
     <div>
       <slot />

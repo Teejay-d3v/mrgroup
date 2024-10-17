@@ -66,11 +66,11 @@
               </li>
             </ul>
           </li>
-          <li>
+          <!-- <li>
             <NuxtLink to="/" class="nux-link" active-class="text-orange-400">
               Contact Us
             </NuxtLink>
-          </li>
+          </li> -->
         </ul>
 
         <!-- Button -->

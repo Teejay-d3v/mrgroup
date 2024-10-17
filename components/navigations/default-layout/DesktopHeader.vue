@@ -3,46 +3,31 @@
     <!-- Background Section -->
     <div class="custom-bg-image text-white  ">
       <!-- Navigation Bar -->
-      <div class="container mx-auto px-10 mt-10 flex justify-between items-center text-white w-[1600px] h-[109px] rounded-lg bg-white shadow-lg">
+      <div class="  py-7 pr-4 pl-10 mx-auto flex justify-between items-center text-white w-[1600px] rounded-lg bg-white shadow-lg">
         <!-- Brand/Logo -->
-        <NuxtLink to="/" class="text-2xl font-bold text-black">
-          Logo
+        <NuxtLink to="/" class="text-2xl font-bold text-black" style="font-family: DM Sans;font-size: 38.04px; font-weight: 600; line-height: 49.53px; text-align: left;">
+          LOGO
         </NuxtLink>
 
         <!-- Menu Items -->
-        <ul class="flex space-x-6 text-black">
+        <ul class="flex  text-black ">
           <li>
-            <NuxtLink to="/" class="nux-link" active-class="text-orange-400 ">
+            <NuxtLink to="/" class="nux-link custom-li" active-class="text-orange-400 ">
               Home
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="nux-link" active-class="text-orange-400">
+            <NuxtLink to="/about" class="nux-link custom-li" active-class="text-orange-400">
               About
             </NuxtLink>
           </li>
-          <li>
-            <NuxtLink to="/our-services" class="nux-link" active-class="text-orange-400">
-              Our Services
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/liquidate" class="nux-link" active-class="text-orange-400">
-              Liquidate
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/governance-and-responsibility" class="nux-link" active-class="text-orange-400">
-              Governance & Responsibility
-            </NuxtLink>
-          </li>
-          <!-- HMR Group Dropdown -->
+                    <!-- HMR Group Dropdown -->
           <li class="relative group">
-            <NuxtLink to="/hmr-group" class="nux-link" active-class="text-orange-400">
+            <NuxtLink to="/hmr-group" class="nux-link custom-li" active-class="text-orange-400">
               HMR Group
             </NuxtLink>
 
-            <!-- Dropdown menu -->
+ 
             <ul class="absolute left-0 top-5 mt-1 hidden group-hover:block bg-white text-blue-950 shadow-lg rounded-md w-48 z-50">
               <li>
                 <NuxtLink to="/hmr-group-reverse-logistics" class="block px-4 py-2  hover:text-orange-600">
@@ -67,10 +52,26 @@
             </ul>
           </li>
           <li>
+            <NuxtLink to="/our-services" class="nux-link custom-li" active-class="text-orange-400">
+              Services
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/liquidate" class="nux-link custom-li" active-class="text-orange-400">
+              Liquidate
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/governance-and-responsibility" class="nux-link custom-li" active-class="text-orange-400">
+              Governance & Responsibility
+            </NuxtLink>
+          </li>
+
+          <!-- <li>
             <NuxtLink to="/contact-us" class="nux-link" active-class="text-orange-400">
               Contact Us
             </NuxtLink>
-          </li>
+          </li> -->
         </ul>
 
         <!-- Button -->
@@ -78,27 +79,6 @@
           List Now
         </button>
       </div>
-
-
-      <!-- <div class="container mx-auto" style="width: 1600px; height: 891px; display: flex; justify-content: center; align-items: center; ">
-        <div class="text-center ">
-          <h1 class="mb-4 text-5xl sm:text-6xl lg:text-7xl sm:px-14 lg:px-32 xl:px-40 2xl:px-72 font-extrabold shadow-text font-display">
-            Maximize the Value of surplus with HMR Reverse Logistics
-          </h1>
-          <p class="text-sm md:text-base justify-center text-center mb-10 px-10 sm:px-14 lg:px-32 xl:px-40 2xl:px-72">
-            Transforming Excess Inventory into Valuable Assets with 
-Innovative Solutions and Sustainable Practices.
-          </p>
-          <div class="flex space-x-4 justify-center">
-            <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-              Explore Services
-            </button>
-            <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-              Explore Services
-            </button>
-          </div>
-        </div>
-      </div> -->
 
       <Intro />
 
@@ -112,8 +92,7 @@ import Intro from '@/components/home/Intro.vue'
 
 <style scoped>
 .custom-bg-image {
-  height: 1000px;  
-  width: 100%;
+  width: 1,728px;
   background-image: url('/public/images/header.png');
   background-position: center center;
   background-repeat: no-repeat;
@@ -121,7 +100,25 @@ import Intro from '@/components/home/Intro.vue'
   display: flex;
   flex-direction: column;
   position: relative;
+  padding-top: 20px;
 }
+
+.custom-bg-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 16, 41, 0.35); /* #07102959 */
+  z-index: 1;
+}
+
+.custom-bg-image > * {
+  position: relative;
+  z-index: 2; /* Ensure the content appears above the overlay */
+}
+
 .custom-button {
   width: 169px;
   height: 50px;
@@ -132,14 +129,18 @@ import Intro from '@/components/home/Intro.vue'
 }
 
 .nux-link {
-  width: 90px;
-  height: 21px; 
-  padding: 0 24px; 
-  font-family: 'Poppins', sans-serif; 
-  font-size: 14px; 
-  font-weight: 400; 
-  line-height: 21px; 
+  width: 42px;
+  height: 21px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
   text-align: left;
-}
 
+}
+.custom-li{
+  width: 91px;
+  padding: 0px 24px 0px 24px;
+  gap: 8px;
+}
 </style>

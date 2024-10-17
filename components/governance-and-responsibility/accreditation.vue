@@ -63,7 +63,7 @@ const logos = [
   justify-content: center;
   width: 100%;
   height: auto; 
-  gap: 76px; 
+  gap: 50px; 
 }
 
 .logo {

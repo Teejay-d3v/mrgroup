@@ -1,19 +1,54 @@
 <template>
   <section>
-    <div class="container mx-auto " style="width: 1600px; height: 891px; display: flex; justify-content: center; align-items: center; ">
-        <div ref="title" class="text-center ">
-          <h1 class="mb-4  sm:text-6xl lg:text-7xl sm:px-14 lg:px-32 xl:px-40 2xl:px-72  shadow-text ">
-            Maximize the Value of surplus with HMR Reverse Logistics
+    <div class=" mx-auto " style="width: 1600px; height: 891px; display: flex; justify-content: center; align-items: center; ">
+        <div ref="title" style="width: 1300px">
+          <h1 class="shadow-text " 
+          style="width: 1188px; font-family: DM Sans;
+          font-size: 96px;
+          font-weight: 600;
+          line-height: 106px;
+          text-align: center;
+          width: 100%;
+          ">
+            Maximize the Value of
+          surplus with HMR Reverse 
+                 Logistics
           </h1>
-          <p ref="paragraph1" class="text-center text-base mb-10 mx-auto px-4 sm:px-14 lg:px-32 xl:px-40 2xl:px-72">
-            Transforming Excess Inventory into Valuable Assets with Innovative Solutions and Sustainable Practices.
+          <p ref="paragraph1" class="text-center mx-auto mb-[24px] mt-[12px]" 
+          style="font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 36px;
+            text-align: center;
+            width: 506px;
+            height: 72px;
+            ">
+            Transforming Excess Inventory into Valuable Assets with 
+            Innovative Solutions and Sustainable Practices.
           </p>
           <div class="flex space-x-4 justify-center">
-            <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-              Explore Services
+            <button 
+              style="
+              width: 178px;
+              height: 60px;
+              padding: 12px 32px 12px 32px;
+              gap: 8px;
+              border-radius: 8px ;
+              background: #FD7936;
+              ">
+              Discover More 
             </button>
-            <button class="border hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-              Explore Services
+            <button 
+            
+            style="
+              border: 1px solid;
+              width: 178px;
+              height: 60px;
+              padding: 12px 32px 12px 32px;
+              gap: 8px;
+              border-radius: 8px ;
+              ">
+              Read More
             </button>
           </div>
         </div>

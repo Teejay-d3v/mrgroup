@@ -4,10 +4,10 @@
       <div>
         <div class="flex flex-col items-center text-center p-4">
           <div class="my-5 max-w-5xl w-full">
-            <h1 ref="title"> What is HMRGroup?</h1>
+            <h1 ref="title" class="mx-10 lg:mx-0"> What is HMRGroup?</h1>
           </div>
           <div class="max-w-5xl w-full">
-            <p ref="paragraph" class="text-base md:text-lg lg:text-xl">
+            <p ref="paragraph" class="text-base md:text-lg lg:text-xl mx-10 lg:mx-0">
               HMR Group is a diverse group of companies specializing in various industries, including auctions, retail, environmental recycling, and asset management. With decades of experience, HMR Group offers comprehensive solutions ranging from live and online auctions, retail sales, and asset liquidation to sustainable recycling of electronic waste and surplus items. They also handle specialized services such as auto auctions, heavy machinery sales, and real estate management, making them a trusted partner for businesses and individuals looking to buy, sell, or recycle assets effectively.
             </p>
           </div>
@@ -15,10 +15,10 @@
       </div>
 
       <div class="container px-5 pb-24 mx-auto">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-2">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 py-2">
           <div
               ref="card"
-                class="p-4 w-[384px] h-[601px]"
+                class="p-4 lg:w-[384px] lg:h-[601px] sm:flex sm:flex-col sm:items-center"
                 v-for="(item, index) in items"
                 :key="index"
               >
@@ -74,19 +74,19 @@ setupAnimations([
 const items = [
   {
     image: 'images/hrm-group-content.png',
-    title: 'Shooting Stars'
+    title: 'Reverse Logistics'
   },
   {
     image: 'images/hrm-group-content2.png',
-    title: 'The Catalyzer'
+    title: 'Trading Haus'
   },
   {
     image: 'images/hrm-group-content3.png',
-    title: 'The 400 Blows'
+    title: 'Auctions'
   },
   {
     image: 'images/hrm-group-content4.png',
-    title: 'The 400 Blows'
+    title: 'Envirocycle'
   }
 ];
 </script>

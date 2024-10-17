@@ -73,11 +73,11 @@
               </li>
             </ul>
           </li>
-          <li>
+          <!-- <li>
             <NuxtLink to="/contact-us" class="nux-link" active-class="text-orange-400">
               Contact Us
             </NuxtLink>
-          </li>
+          </li> -->
         </ul>
       </div>
 
@@ -107,10 +107,6 @@
 import { ref } from 'vue';
 const isMenuOpen = ref(false);
 
-// Debugging log (optional)
-// watch(isMenuOpen, (newValue) => {
-//   console.log('Menu open:', newValue);
-// });
 </script>
 
 <style scoped>

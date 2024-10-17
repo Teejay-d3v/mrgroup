@@ -1,15 +1,12 @@
 <template>
   <div>
-    <section class="text-white">
+    <section class="text-white w-full">
       <div class="custom-bg-image text-white">
 
-        <!-- Brand/Logo -->
-        <div class="container mx-auto px-4 flex justify-between items-center text-white h-[109px] rounded-lg bg-white shadow-lg">
+        <div class="  px-4 flex justify-between items-center text-white h-[109px] rounded-lg bg-white shadow-lg">
           <NuxtLink to="/" class="text-2xl font-bold text-black">
             Logo
           </NuxtLink>
-
-          <!-- Mobile Menu Button -->
           <button @click="isMenuOpen = !isMenuOpen" class="lg:hidden" aria-expanded="isMenuOpen" aria-label="Toggle Menu">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
@@ -73,11 +70,11 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <!-- <li>
               <NuxtLink to="/contact-us" class="nux-link" active-class="text-orange-400" @click="closeMenu">
                 Contact Us
               </NuxtLink>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
