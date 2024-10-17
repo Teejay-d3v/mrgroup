@@ -2,9 +2,13 @@
   <div>
     <!-- Section 1 -->
     <section class="text-gray-600 body-font">
-  <div class="grid grid-cols-1 lg:grid-cols-2  gap-[24] items-center px-[64px] pt-[120px]">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-[24] items-center px-[64px] py-[120px]">
     <!-- Left Column: Text Content -->
-    <div class="col-span-1 flex flex-col p-5  lg:p-0">
+    <div class="col-span-1 flex flex-col m-10 lg:p-0" style="width: 796px;
+      padding: 8px 0px 0px 0px;
+      gap: 24px;
+      opacity: 0px;
+      ">
       <h1 ref="title" class="p-0 lg:p-4" 
         style="font-family: DM Sans;
         font-size: 56px;
@@ -26,7 +30,7 @@
           Join us in our mission to turn surplus into value and lead the way toward a sustainable future.
         </p>
       </div>
-      <div class="flex justify-start py-4">
+      <div class="flex justify-center border-t-2  mt-6">
         <a class="inline-flex items-center " style="width: 389.33px;
                   height: 56px;
                   padding: 20px 0px 0px 0px;
@@ -60,7 +64,7 @@
 
     <!-- Section 2 -->
     <section class="text-gray-600 body-font">
-      <div  class="hidden lg:flex container mx-auto flex-col lg:flex-row items-center px-5">
+      <div  class="hidden lg:flex container mx-auto flex-col lg:flex-row items-center px-5 mt-[100px]">
         <div ref="card" class="lg:flex-grow md:w-1/2  flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <div class="bg-white p-10 rounded-lg shadow-lg w-[651px] h-[538px]">
             <button class="mb-3 bg-gray-300 h-10 px-6 rounded-lg font-semibold">CAREERS</button>
